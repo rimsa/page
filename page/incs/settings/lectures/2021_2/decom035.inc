@@ -68,39 +68,39 @@ EOF;
 $lecture->calendar = <<<EOF
 12/10/2021;holiday;Feriado nacional: Nossa Senhora Aparecida
 14/10/2021;theory;Apresentação da disciplina
-19/10/2021;theory;Conceitos preliminares: representações, provas de teoremas
-21/10/2021;theory;Conceitos preliminares: conjuntos, relações, funções 
-26/10/2021;theory;Conceitos preliminares: conjuntos enumeráveis, definições recursivas
-28/10/2021;theory;Conceitos preliminares: indução, grafos, linguagens formais
+19/10/2021;theory;Conceitos preliminares: representações, provas de teoremas, conjuntos, relações, funções
+21/10/2021;theory;Conceitos preliminares: conjuntos enumeráveis, definições recursivas, indução, grafos
+26/10/2021;theory;Conceitos preliminares: linguagens formais, gramáticas, problemas de decisão
+28/10/2021;theory;Autômatos finitos determinísticos (AFD)
 02/11/2021;holiday;Feriado nacional: Finados
-04/11/2021;theory;Conceitos preliminares: gramáticas, problemas de decisão
-09/11/2021;theory;Autômatos finitos determinísticos (AFD)
-11/11/2021;theory;Minimização de AFD's
-16/11/2021;theory;Propriedades de AFD's
-18/11/2021;theory;Autômatos finitos não determinísticos (AFN)
-23/11/2021;theory;Equivalência entre AFD's e AFN's, AFN estendido e AFN λ
-25/11/2021;exercise;Resolução de exercícios
-30/11/2021;exam;Prova 1
-02/12/2021;theory;LR's: Lema do bombeamento e propriedades de fechamento
-07/12/2021;theory;Expressões regulares
-09/12/2021;theory;Gramáticas regulares
-14/12/2021;theory;Autômatos de pilha determinístico (APD) e não determinístico (APN)
-16/12/2021;theory;Gramáticas livres de contexto (GLC)
-21/12/2021;theory;Derivação, ambiguidade e manipulação de GLC’s
+04/11/2021;theory;Minimização de AFD's
+09/11/2021;theory;Propriedades de AFD's
+11/11/2021;theory;Autômatos finitos não determinísticos (AFN)
+16/11/2021;theory;Equivalência entre AFD's e AFN's, AFN estendido e AFN λ
+18/11/2021;exercise;Resolução de exercícios
+23/11/2021;exam;Prova 1
+25/11/2021;theory;LR's: Lema do bombeamento e propriedades de fechamento
+30/11/2021;theory;Expressões regulares
+02/12/2021;theory;Gramáticas regulares
+07/12/2021;theory;Autômatos de pilha determinístico (APD) e não determinístico (APN)
+09/12/2021;theory;Gramáticas livres de contexto (GLC), derivação, ambiguidade e manipulação
+14/12/2021;theory;Formas normais sobre GLC's
+16/12/2021;exercise;Resolução de exercícios
+21/12/2021;exam;Prova 2
 23/12/2021;holiday;Recesso escolar
 28/12/2021;holiday;Recesso escolar
 30/12/2021;holiday;Recesso escolar
 04/01/2022;holiday;Recesso escolar
-06/01/2022;theory;Formas normais sobre GLC's
-11/01/2022;theory;LLC's: Lema do bombeamento e propriedades de fechamento
-13/01/2022;exercise;Resolução de exercícios
-18/01/2022;exam;Prova 2
-20/01/2022;theory;Máquinas de Turing e propriedades
-25/01/2022;theory;Variações de máquinas de Turing: cabeçote imóvel, múltiplas trilhas e fita ilimitada em ambas as direções
-27/01/2022;theory;Variações de máquinas de Turing: múltiplas fitas e não determinística
+06/01/2022;theory;LLC's: Lema do bombeamento e propriedades de fechamento
+11/01/2022;theory;Máquinas de Turing
+13/01/2022;theory;Propriedades de Máquinas de Turing
+18/01/2022;theory;Variações de máquinas de Turing: cabeçote imóvel, múltiplas trilhas
+20/01/2022;theory;Variações de máquinas de Turing: fita ilimitada em ambas as direções
+25/01/2022;theory;Variações de máquinas de Turing: múltiplas fitas e não determinística
+27/01/2022;theory;Decidibilidade: tese de Church-Turing, MT's e PD's
 01/02/2022;holiday;Semana de estudos autônomos
 03/02/2022;holiday;Semana de estudos autônomos
-08/02/2022;theory;Decidibilidade: tese de Church-Turing, MT's e PD's, MT Universal
+08/02/2022;theory;Decidibilidade: Máquina de Turing Universal
 10/02/2022;theory;Decidibilidade: problema da parada, redução e teorema de Rice
 15/02/2022;exercise;Resolução de exercícios
 17/02/2022;exam;Prova 3
