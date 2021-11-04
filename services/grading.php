@@ -64,7 +64,7 @@ $args->term = preg_replace('/[^0-9_]/', '', strtolower($_REQUEST['term']));
 $args->registry = preg_replace('/[^0-9]/', '', strtolower($_REQUEST['registry']));
 
 in_array($settings->lecture, $settings->lectures) or abortService();
-(@include_once($settings->basePath . '/incs/lectures/' . $settings->lecture . '.inc')) or abortService();
+(@include_once($settings->basePath . '/incs/settings/lectures/' . $settings->lecture . '.inc')) or abortService();
 in_array($args->term, $lecture->offers) or abortService();
 isset($lecture->grading) or abortService();
 (@include_once($settings->basePath . '/incs/classes/grading.inc')) or abortService();
