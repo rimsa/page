@@ -82,51 +82,53 @@ last;lablast;Total;100;
 EOF
 );
 
+$lecture->homeworks = <<<EOF
+tp1/TP1.pdf;https://youtu.be/8lemN5BHUYk;20/12;tp1/code.zip;miniLua;O objetivo desse trabalho é desenvolver um interpretador para um subconjunto de uma linguagem de programação conhecida. Para isso foi criada miniLua, uma linguagem de programação de brinquedo baseada em Lua.
+EOF;
+
+$lecture->seminars = <<<EOF
+seminars.pdf;07/02;Seminários sobre linguagens de programação para que os alunos tenham contato com informações, motivações, características de diversas linguagens.
+EOF;
+
 $lecture->calendar = <<<EOF
-12/10/2021;holiday;Feriado nacional: Nossa Senhora Aparecida
 13/10/2021;theory;Apresentação da disciplina
 19/10/2021;laboratory;Apresentação da disciplina (lab)
 20/10/2021;theory;Sintaxe e semântica
-26/10/2021;laboratory;TP1: Interpretador (1/7)
+26/10/2021;laboratory;TP1: Interpretador (1/6)
 27/10/2021;theory;Sistemas de linguagens
 02/11/2021;holiday;Feriado nacional: Finados
 03/11/2021;theory;Nomes, amarrações e escopo (1/2)
-09/11/2021;laboratory;TP1: Interpretador (2/7)
+09/11/2021;laboratory;TP1: Interpretador (2/6)
 10/11/2021;theory;Nomes, amarrações e escopo (2/2)
-16/11/2021;laboratory;TP1: Interpretador (3/7)
-17/11/2021;theory;Tipos de dados (1/2)
-23/11/2021;laboratory;TP1: Interpretador (4/7)
-24/11/2021;theory;Tipos de dados (2/2)
-30/11/2021;laboratory;TP1: Interpretador (5/7)
-01/12/2021;theory;Verificação de tipos
-07/12/2021;laboratory;TP1: Interpretador (6/7)
+16/11/2021;laboratory;TP1: Interpretador (3/6)
+17/11/2021;theory;Tipos de dados
+23/11/2021;laboratory;TP1: Interpretador (4/6)
+24/11/2021;theory;Verificação de tipos
+30/11/2021;laboratory;TP1: Interpretador (5/6)
+01/12/2021;theory;Subprogramas
+07/12/2021;laboratory;TP1: Interpretador (6/6)
 08/12/2021;holiday;Feriado regional: Nossa Senhora da Conceição
-14/12/2021;laboratory;TP1: Interpretador (7/7)
-15/12/2021;theory;Subprogramas
-21/12/2021;exam;Prova 1 (lab)
-22/12/2021;exam;Prova 1
+14/12/2021;exam;Prova 1 (lab)
+15/12/2021;exam;Prova 1
+21/12/2021;laboratory;TP2: Programação orientada a eventos (1/2)
+22/12/2021;theory;Programação orientada a objetos
 28/12/2021;holiday;Recesso escolar
 29/12/2021;holiday;Recesso escolar
 04/01/2022;holiday;Recesso escolar
-05/01/2022;theory;Programação orientada a objetos
-11/01/2022;laboratory;TP2: Programação orientada a eventos (1/3)
-12/01/2022;theory;Tratamento de exceções
-18/01/2022;laboratory;TP2: Programação orientada a eventos (2/3)
-19/01/2022;theory;Programação funcional (Haskell)
-25/01/2022;laboratory;TP2: Programação orientada a eventos (3/3)
-26/01/2022;theory;Programação lógica (Prolog)
+05/01/2022;theory;Tratamento de exceções
+11/01/2022;laboratory;TP2: Programação orientada a eventos (2/2)
+12/01/2022;theory;Programação funcional (Haskell)
+18/01/2022;laboratory;TP3: Programação funcional (Haskell)
+19/01/2022;theory;Programação lógica (Prolog)
+25/01/2022;laboratory;TP4: Programação lógica (Prolog)
+26/01/2022;theory;Programação concorrente
 01/02/2022;holiday;Semana de estudos autônomos
 02/02/2022;holiday;Semana de estudos autônomos
-08/02/2022;laboratory;TP3: Programação funcional (Haskell)
-09/02/2022;theory;Programação concorrente
-15/02/2022;laboratory;TP4: Programação lógica (Prolog)
-16/02/2022;exam;Prova 2
-22/02/2022;exam;Prova 2 (lab)
-23/02/2022;exam;Prova suplementar
-01/03/2022;holiday;Feriado nacional: Carnaval
-02/03/2022;holiday;Feriado nacional: Quarta-feira de cinzas
-08/03/2022;exam;Prova especial (lab)
-09/03/2022;exam;Prova especial
+08/02/2022;exam;Prova 2 (lab)
+09/02/2022;exam;Prova 2
+11/02/2022;exam;Prova suplementar
+15/02/2022;exam;Prova especial (lab)
+16/02/2022;exam;Prova especial
 EOF;
 
 ?>

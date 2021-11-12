@@ -66,7 +66,6 @@ last;last;Total;100;
 EOF;
 
 $lecture->calendar = <<<EOF
-12/10/2021;holiday;Feriado nacional: Nossa Senhora Aparecida
 14/10/2021;theory;Apresentação da disciplina
 19/10/2021;theory;Conceitos preliminares: representações, provas de teoremas, conjuntos, relações, funções
 21/10/2021;theory;Conceitos preliminares: conjuntos enumeráveis, definições recursivas, indução, grafos
@@ -92,22 +91,17 @@ $lecture->calendar = <<<EOF
 30/12/2021;holiday;Recesso escolar
 04/01/2022;holiday;Recesso escolar
 06/01/2022;theory;LLC's: Lema do bombeamento e propriedades de fechamento
-11/01/2022;theory;Máquinas de Turing
-13/01/2022;theory;Propriedades de Máquinas de Turing
-18/01/2022;theory;Variações de máquinas de Turing: cabeçote imóvel, múltiplas trilhas
-20/01/2022;theory;Variações de máquinas de Turing: fita ilimitada em ambas as direções
-25/01/2022;theory;Variações de máquinas de Turing: múltiplas fitas e não determinística
-27/01/2022;theory;Decidibilidade: tese de Church-Turing, MT's e PD's
+11/01/2022;theory;Máquinas de Turing e propriedades
+13/01/2022;theory;Variações de máquinas de Turing: cabeçote imóvel, múltiplas trilhas, fita ilimitada em ambas as direções
+18/01/2022;theory;Variações de máquinas de Turing: múltiplas fitas e não determinística
+20/01/2022;theory;Decidibilidade: tese de Church-Turing, MT's e PD's, MT Universal
+25/01/2022;theory;Decidibilidade: problema da parada, redução e teorema de Rice
+27/01/2022;exercise;Resolução de exercícios
 01/02/2022;holiday;Semana de estudos autônomos
 03/02/2022;holiday;Semana de estudos autônomos
-08/02/2022;theory;Decidibilidade: Máquina de Turing Universal
-10/02/2022;theory;Decidibilidade: problema da parada, redução e teorema de Rice
-15/02/2022;exercise;Resolução de exercícios
-17/02/2022;exam;Prova 3
-22/02/2022;exam;Prova suplementar
-24/02/2022;holiday;Feriado nacional: Carnaval
-01/03/2022;holiday;Feriado nacional: Carnaval
-03/03/2022;exam;Prova especial
+08/02/2022;exam;Prova 3
+10/02/2022;exam;Prova suplementar
+15/02/2022;exam;Prova especial
 EOF;
 
 ?>
