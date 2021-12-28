@@ -24,7 +24,7 @@ function loadGrade($grades, $g) {
 	foreach (explode(PHP_EOL, $g) as $line) {
 		list($id, $value) = explode(';', $line);
 
-		if (!empty($value)) {
+		if (is_numeric($value)) {
 			$tmp = $grades->getGradeById($id);
 			if (isset($tmp))
 				$tmp->setGrade($value);
