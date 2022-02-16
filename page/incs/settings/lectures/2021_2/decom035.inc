@@ -36,6 +36,10 @@ Resenha manuscrita do filme <i>O Jogo da Imitação</i> vale 2pts
 EOF
 );
 
+$lecture->homeworks = <<<EOF
+TP.pdf;;07/02;;Chomsky;Implementar um programa que recebe uma gramática livre de contexto (GLC) G e a transforme em uma GLC G' equivalente na forma normal de Chomsky.
+EOF;
+
 $lecture->grading = <<<EOF
 exam;exams;Provas;75;+
 exam;exam01;Prova 01;25;exams

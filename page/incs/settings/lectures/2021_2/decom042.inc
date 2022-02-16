@@ -61,19 +61,19 @@ $lecture->calendar = <<<EOF
 27/10/2021;theory;Processamento de texto
 03/11/2021;theory;Sistemas de arquivos
 10/11/2021;theory;Processos
-17/11/2021;theory;Entradas, saídas e redirecionamentos
-24/11/2021;theory;Expansões
-01/12/2021;theory;Parâmetros e variáveis
+17/11/2021;theory;Entradas, saídas e redirecionamentos (1/2)
+24/11/2021;theory;Entradas, saídas e redirecionamentos (2/2)
+01/12/2021;theory;Expansões
 08/12/2021;holiday;Feriado regional: Nossa Senhora da Conceição
-15/12/2021;theory;Estruturas de fluxo condicionais
-22/12/2021;theory;Estruturas de repetição
+15/12/2021;theory;Parâmetros e variáveis
+22/12/2021;theory;Estruturas de fluxo condicionais
 29/12/2021;holiday;Recesso escolar
-05/01/2022;theory;Expressões regulares
-12/01/2022;theory;sed
-19/01/2022;theory;awk
-26/01/2022;exam;Prova
+05/01/2022;theory;Estruturas de repetição
+12/01/2022;theory;Expressões regulares
+19/01/2022;theory;sed
+26/01/2022;theory;awk
 02/02/2022;holiday;Semana de estudos autônomos
-09/02/2022;exam;Prova suplementar
+09/02/2022;exam;Prova
 16/02/2022;exam;Prova especial
 EOF;
 

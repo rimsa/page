@@ -83,7 +83,10 @@ EOF
 );
 
 $lecture->homeworks = <<<EOF
-tp1/TP1.pdf;https://youtu.be/8lemN5BHUYk;20/12;tp1/code.zip;miniLua;O objetivo desse trabalho é desenvolver um interpretador para um subconjunto de uma linguagem de programação conhecida. Para isso foi criada miniLua, uma linguagem de programação de brinquedo baseada em Lua.
+tp1/TP1.pdf;https://youtu.be/8lemN5BHUYk;27/12;tp1/code.zip;miniLua;O objetivo desse trabalho é desenvolver um interpretador para um subconjunto de uma linguagem de programação conhecida. Para isso foi criada miniLua, uma linguagem de programação de brinquedo baseada em Lua.
+tp2/TP2.pdf;https://youtu.be/1PLl5cMAPas;17/01;tp2/slimetrail.zip;Rastros;O objetivo desse trabalho é desenvolver o jogo Rastros (Slimetrail) em um ambiente orientado a eventos usando Qt com C++.
+tp3/TP3.pdf;;24/01;;Haskell;O objetivo desse trabalho é desenvolver 15 programas em Haskell.
+tp4/TP4.pdf;;07/02;;Prolog;O objetivo desse trabalho é desenvolver 15 programas em Prolog.
 EOF;
 
 $lecture->seminars = <<<EOF
