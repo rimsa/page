@@ -9,7 +9,7 @@ EOF;
 
 $publications->journals = <<<EOF
 en;Andrei Rimsa, José Nelson Amaral, Fernando Magno Quintão Pereira;Instruction Visibility in SPEC CPU2017;Journal of Computer Languages;2021;jcl21.pdf
-en;Andrei Rimsa, José Nelson Amaral, Fernando Magno Quintão Pereira;Practical Dynamic Reconstruction of Control Flow Graphs;Software, Practice and Experience;2020;spe20.pdf
+en;Andrei Rimsa, José Nelson Amaral, Fernando Magno Quintão Pereira;Practical Dynamic Reconstruction of Control Flow Graphs;Software, Practice and Experience;2021;spe21.pdf
 en;Andrei Rimsa, Marcelo D'Amorim, Fernando Magno Quintão Pereira, Roberto S. Bigonha;Efficient Static Checker for Tainted Variable Attacks;Science of Computer Programming;2014;jscp14.pdf
 EOF;
 
