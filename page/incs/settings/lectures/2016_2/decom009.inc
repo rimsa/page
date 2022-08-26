@@ -116,7 +116,7 @@ $lecture->calendar = <<<EOF
 04/10/2016;laboratory;TP2: Programação orientada a eventos (1/2)
 05/10/2016;theory;Programação orientada a objetos
 11/10/2016;holiday;Recesso escolar
-12/10/2016;holiday;Feriado nacional: Nossa Senhora da Aparecida
+12/10/2016;holiday;Feriado nacional: Nossa Senhora Aparecida
 18/10/2016;laboratory;TP2: Programação orientada a eventos (2/2)
 19/10/2016;theory;Tratamento de exceções
 25/10/2016;laboratory;TP3: Programação funcional (Haskell)
@@ -125,7 +125,7 @@ $lecture->calendar = <<<EOF
 02/11/2016;holiday;Feriado nacional: Finados
 08/11/2016;laboratory;Seminários (2/2)
 09/11/2016;theory;Programação lógica (Prolog)
-15/11/2016;holiday;Feriado nacional: Proclamação da república
+15/11/2016;holiday;Feriado nacional: Proclamação da República
 16/11/2016;theory;Programação concorrente
 22/11/2016;exam;Segunda prova (lab)
 25/01/2017;exam;Segunda prova
