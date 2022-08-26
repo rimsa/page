@@ -29,18 +29,18 @@ function configTwitter(intentEvent) {
 }
 
 function calcHeaderSize() {
-	// default padding is 60px.
+	// Default padding is 60px.
 	padding = 60;
 
-	//  add padding if the menu is visible.
+	// Add padding if the menu is visible.
 	if ($('div.navbar-offcanvas').is(':visible'))
 		padding += 50;
 
-	// add padding if the slideshow is visible.
+	// Add padding if the slideshow is visible.
 	if ($('#slideshow').is(':visible'))
 		padding += 150;
 
-	// add padding if the breadcrumbs is visible.
+	// Add padding if the breadcrumbs is visible.
 	if ($('#breadcrumbs').is(':visible'))
 		padding += 30;
 
@@ -50,10 +50,10 @@ function calcHeaderSize() {
 function updateBodyPadding() {
 	padding = calcHeaderSize();
 
-	// set the new calculated padding value.
+	// Set the new calculated padding value.
 	$('body > .container').css('padding-top', padding + 'px');
 
-	// apply to the anchors.
+	// Apply to the anchors.
 	$('.anchor-offset').css('padding-top', padding + 'px');
 	$('.anchor-offset').css('margin-top', '-' + padding + 'px');
 
