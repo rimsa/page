@@ -1,29 +1,5 @@
 function configTwitter(intentEvent) {
-	$('#twitter-widget-0').attr('scrolling', 'yes');
-	$('#twitter-widget-0').contents().find('a.TweetAuthor-avatar').css('display', 'none');
-	$('#twitter-widget-0').contents().find('a.TwitterCard-container').css('background-color', 'white');
-	$('#twitter-widget-0').contents().find('span.TweetAuthor-decoratedName').css('display', 'none');
-	$('#twitter-widget-0').contents().find('div.timeline-Tweet').css('padding', '0px');
-	$('#twitter-widget-0').contents().find('div.timeline-Tweet').css('background-color', 'transparent');
-	$('#twitter-widget-0').contents().find('div.timeline-Tweet-author').css('padding-left', '15px');
-	$('#twitter-widget-0').contents().find('div.timeline-Tweet-author').css('margin-bottom', '0px');
-	$('#twitter-widget-0').contents().find('div.timeline-Tweet-media').css('display', 'none');
-	$('#twitter-widget-0').contents().find('a.TweetAuthor-link').hover(
-			function() { $(this).css('color', '#55acee'); },
-			function() { $(this).css('color', 'white'); }
-	);
-	$('#twitter-widget-0').contents().find('p.timeline-Tweet-text').css('margin-left', '15px');
-	$('#twitter-widget-0').contents().find('p.timeline-Tweet-text').css('margin-bottom', '0px');
-	$('#twitter-widget-0').contents().find('p.timeline-Tweet-text').css('font-size', '14px');
-	$('#twitter-widget-0').contents().find('p.timeline-Tweet-text').css('color', 'white');
-	$('#twitter-widget-0').contents().find('ul.timeline-Tweet-actions').css('margin-left', '15px');
-	$('#twitter-widget-0').contents().find('ul.timeline-Tweet-actions').css('margin-bottom', '5px');
-	$('#twitter-widget-0').contents().find('li.tweet').css('padding', '0px 0px 0px 15px');
-	$('#twitter-widget-0').contents().find('div.header').css('padding', '0px 0px 0px 0px');
-	
-	$('#twitter-widget-0').css('height', $('#twitter-widget-0').contents().find('.timeline-Widget').outerHeight(true));
-
-	// The footer may have been shrank by the config.
+	// The footer may have been resized by the config.
 	// Update the footer to reflect this change.
 	updateFooter(true);
 }

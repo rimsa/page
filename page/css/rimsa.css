@@ -391,12 +391,13 @@ body > .container {
 }
 
 #footer {
-    background-color: #292929;
+    background-color: black;
     color: white;
     margin-top: 25px;
     width: calc(100% + 15px);
     margin-left: -15px;
     padding-left: 30px;
+    border-top: 1px solid #d2d2d2;
 }
 
 .sticky {
@@ -412,6 +413,7 @@ body > .container {
 
 #footer > div {
     padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 #footer a {
@@ -435,10 +437,13 @@ body > .container {
 .underfooter {
     text-align: center;
     min-height: 30px;
-    background-color: black;
+    background: url('../images/bg/h_darkchalkboard.jpg') no-repeat;
+    border-top: 2px solid #353535;
     color: white;
     padding-top: 5px;
-    padding-bottom: 10px;
+    padding-bottom: 5px;
+    font-family: CrayonCrumble;
+    font-size: 20px;
 }
 
 #breadcrumbs {

@@ -19,7 +19,7 @@
         </div>
         <div class="col-sm-6">
           <h4><?= $settings->translation->footer['tweets'] ?></h4>
-          <a class="twitter-timeline" href="https://twitter.com/andrei_cefetmg" data-widget-id="588875640897728513" data-tweet-limit="3" data-chrome="noheaders nofooters noborders transparent">Tweets by @andrei_cefetmg</a>
+          <a class="twitter-timeline" href="https://twitter.com/andrei_cefetmg" data-widget-id="588875640897728513" data-tweet-limit="3" data-chrome="noheader nofooter noborders transparent" data-height="250" data-theme="dark" data-dnt="true">Tweets by @andrei_cefetmg</a>
         </div>
         <div class="col-sm-2">
           <h4><?= $settings->translation->footer['follow'] ?></h4>
