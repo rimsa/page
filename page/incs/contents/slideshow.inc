@@ -100,6 +100,12 @@
           <img src="<?= $settings->basePage ?>/images/banner/tourinhos.jpg" alt="Praia de Tourinhos - São Miguel do Gostoso, RN/Brasil">
           <img src="<?= $settings->basePage ?>/images/banner/amor.jpg" alt="Praia do Amor - Pipa, RN/Brasil">
           <img src="<?= $settings->basePage ?>/images/banner/genipabu.jpg" alt="Dunas - Genipabu, RN/Brasil">
+          <img src="<?= $settings->basePage ?>/images/banner/cachoeiragrande.jpg" alt="Cachoeira Grande - Serra do Cipó, MG/Brasil">
+          <img src="<?= $settings->basePage ?>/images/banner/serradapiedade.jpg" alt="Santuário Basílica Nossa Senhora da Piedade - Caeté, MG/Brasil">
+          <img src="<?= $settings->basePage ?>/images/banner/cancun.jpg" alt="Playa Amada - Cancún, México">
+          <img src="<?= $settings->basePage ?>/images/banner/canionfortaleza.jpg" alt="Cânion Fortaleza - Cambará do Sul, RS/Brasil">
+          <img src="<?= $settings->basePage ?>/images/banner/canionitaimbezinho.jpg" alt="Cânion Itaimbezinho - Cambará do Sul, RS/Brasil">
+          <img src="<?= $settings->basePage ?>/images/banner/riodoboi.jpg" alt="Trilha do Rio do Boi - Praia Grande, SC/Brasil">
         </div>
 <?php
 	}
