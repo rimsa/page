@@ -6,7 +6,7 @@ $lecture->code = '2ECOM.035';
 $lecture->image = 'images/classes/lfa.png';
 $lecture->departament = 'DECOM';
 $lecture->offers = array('2022_2', '2022_1', '2021_2', '2021_1', '2020_2', '2020_1', '2018_1', '2017_2', '2017_1', '2016_2', '2016_1', '2015_2', '2015_1', '2014_2');
-$lecture->term = in_array($_REQUEST['term'], $lecture->offers, true) ? $_REQUEST['term'] : $lecture->offers[0];
+$lecture->term = (array_key_exists('term', $_REQUEST) and in_array($_REQUEST['term'], $lecture->offers, true)) ? $_REQUEST['term'] : $lecture->offers[0];
 $lecture->dlist = 'decom035';
 
 $lecture->syllabus = <<<EOF
