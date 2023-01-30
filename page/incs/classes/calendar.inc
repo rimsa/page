@@ -100,7 +100,10 @@ class Lectures {
 		});
 		
 		usort($filtered, function($a, $b) {
-			return $a->date() >= $b->date();
+			if ($a->date() == $b->date())
+				return 0;
+			else
+				return $a->date() <= $b->date() ? -1 : 1;
 		});
 		
 		return $filtered;
