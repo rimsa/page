@@ -106,6 +106,12 @@
           <img src="<?= $settings->basePage ?>/images/banner/canionfortaleza.jpg" alt="Cânion Fortaleza - Cambará do Sul, RS/Brasil">
           <img src="<?= $settings->basePage ?>/images/banner/canionitaimbezinho.jpg" alt="Cânion Itaimbezinho - Cambará do Sul, RS/Brasil">
           <img src="<?= $settings->basePage ?>/images/banner/riodoboi.jpg" alt="Trilha do Rio do Boi - Praia Grande, SC/Brasil">
+          <img src="<?= $settings->basePage ?>/images/banner/sumitumba.jpg" alt="Cachoeira Sumitumba - Congonhas do Norte, MG/Brasil">
+          <img src="<?= $settings->basePage ?>/images/banner/bode.jpg" alt="Cachoeira do Bode - Felício dos Santos, MG/Brasil">
+          <img src="<?= $settings->basePage ?>/images/banner/sumidouro.jpg" alt="Cachoeira do Sumidouro - Felício dos Santos, MG/Brasil">
+          <img src="<?= $settings->basePage ?>/images/banner/saomigueldosmilagres1.jpg" alt="Praia de São Miguel dos Milagres - São Miguel dos Milagres, AL/Brasil">
+          <img src="<?= $settings->basePage ?>/images/banner/saomigueldosmilagres2.jpg" alt="Piscinas Naturais - São Miguel dos Milagres, AL/Brasil">
+          <img src="<?= $settings->basePage ?>/images/banner/ruinasmosteirosaobento.jpg" alt="Ruínas do Mosteiro de São Bento - Maragogi, AL/Brasil">
         </div>
 <?php
 	}
