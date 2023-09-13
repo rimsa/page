@@ -82,12 +82,12 @@ $lecture->calendar = <<<EOF
 31/08/2023;theory;Propriedades de AFD's
 05/09/2023;theory;Autômatos finitos não determinísticos (AFN)
 07/09/2023;holiday;Feriado nacional: Independência do Brasil
-12/09/2023;theory;Equivalência entre AFD's e AFN's, AFN estendido e AFN λ
-14/09/2023;exercise;Resolução de exercícios
-19/09/2023;exam;Prova 1
+12/09/2023;theory;Equivalência entre AFD's e AFN's
+14/09/2023;theory;AFN estendido e AFN λ
+19/09/2023;exercise;Resolução de exercícios
 21/09/2023;theory;LR's: Lema do bombeamento e propriedades de fechamento
-26/09/2023;theory;Expressões regulares
-28/09/2023;theory;Gramáticas regulares
+26/09/2023;exam;Prova 1
+28/09/2023;theory;Gramáticas regulares e expressões regulares
 03/10/2023;theory;Autômatos de pilha determinístico (APD)
 05/10/2023;theory;Autômatos de pilha não determinístico (APN)
 10/10/2023;holiday;Recesso escolar: Nossa Senhora Aparecida

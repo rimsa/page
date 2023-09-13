@@ -83,7 +83,7 @@ EOF
 );
 
 $lecture->homeworks = <<<EOF
-tp1/TP1.pdf;https://youtu.be/8lemN5BHUYk;16/10;tp1/code.zip;miniSwift;O objetivo desse trabalho é desenvolver um interpretador para um subconjunto de uma linguagem de programação conhecida. Para isso foi criada miniSwift, uma linguagem de programação de brinquedo baseada em Swift.
+tp1/TP1.pdf;https://youtu.be/8lemN5BHUYk;30/10;tp1/code.zip;miniSwift;O objetivo desse trabalho é desenvolver um interpretador para um subconjunto de uma linguagem de programação conhecida. Para isso foi criada miniSwift, uma linguagem de programação de brinquedo baseada em Swift.
 tp2/TP2.pdf;https://youtu.be/1PLl5cMAPas;27/11;tp2/teeko.zip;Teeko;O objetivo desse trabalho é desenvolver o jogo Teeko em um ambiente orientado a eventos usando Qt com C++.
 tp3/TP3.pdf;;04/12;;Haskell;O objetivo desse trabalho é desenvolver 15 programas em Haskell.
 tp4/TP4.pdf;;11/12;;Prolog;O objetivo desse trabalho é desenvolver 15 programas em Prolog.
@@ -96,37 +96,37 @@ EOF;
 $lecture->calendar = <<<EOF
 01/08/2023;holiday;Semana de acolhimento
 03/08/2023;theory;Apresentação da disciplina
-08/08/2023;laboratory;TP1: Interpretador (1/8)
+08/08/2023;laboratory;TP1: Interpretador (1/9)
 10/08/2023;theory;Sintaxe e semântica
 15/08/2023;holiday;Feriado municipal: Assunção de Nossa Senhora
 17/08/2023;theory;Sistemas de linguagens
-22/08/2023;laboratory;TP1: Interpretador (2/8)
+22/08/2023;laboratory;TP1: Interpretador (2/9)
 24/08/2023;theory;Nomes, amarrações e escopo (1/2)
-29/08/2023;laboratory;TP1: Interpretador (3/8)
+29/08/2023;laboratory;TP1: Interpretador (3/9)
 31/08/2023;theory;Nomes, amarrações e escopo (2/2)
-05/09/2023;laboratory;TP1: Interpretador (4/8)
+05/09/2023;laboratory;TP1: Interpretador (4/9)
 07/09/2023;holiday;Feriado nacional: Independência do Brasil
-12/09/2023;laboratory;TP1: Interpretador (5/8)
+12/09/2023;laboratory;TP1: Interpretador (5/9)
 14/09/2023;theory;Tipos de dados (1/2)
-19/09/2023;laboratory;TP1: Interpretador (6/8)
+19/09/2023;laboratory;TP1: Interpretador (6/9)
 21/09/2023;theory;Tipos de dados (2/2)
-26/09/2023;laboratory;TP1: Interpretador (7/8)
+26/09/2023;laboratory;TP1: Interpretador (7/9)
 28/09/2023;theory;Verificação de tipos
-03/10/2023;laboratory;TP1: Interpretador (8/8)
+03/10/2023;laboratory;TP1: Interpretador (8/9)
 05/10/2023;theory;Subprogramas
 10/10/2023;holiday;Recesso escolar: Nossa Senhora Aparecida
 12/10/2023;holiday;Feriado nacional: Nossa Senhora Aparecida
-17/10/2023;exam;Prova 1 (lab)
+17/10/2023;laboratory;TP1: Interpretador (9/9)
 19/10/2023;exam;Prova 1
-24/10/2023;laboratory;TP2: Programação orientada a eventos (1/5)
+24/10/2023;exam;Prova 1 (lab)
 26/10/2023;theory;Programação orientada a objetos
-31/10/2023;laboratory;TP2: Programação orientada a eventos (2/5)
+31/10/2023;laboratory;TP2: Programação orientada a eventos (1/4)
 02/11/2023;holiday;Feriado nacional: Finados
-07/11/2023;laboratory;TP2: Programação orientada a eventos (3/5)
+07/11/2023;laboratory;TP2: Programação orientada a eventos (2/4)
 09/11/2023;theory;Tratamento de exceções
-14/11/2023;laboratory;TP2: Programação orientada a eventos (4/5)
+14/11/2023;laboratory;TP2: Programação orientada a eventos (3/4)
 16/11/2023;theory;Programação concorrente
-21/11/2023;laboratory;TP2: Programação orientada a eventos (5/5)
+21/11/2023;laboratory;TP2: Programação orientada a eventos (4/4)
 23/11/2023;theory;Programação funcional (Haskell)
 28/11/2023;laboratory;TP3: Programação funcional (Haskell)
 30/11/2023;theory;Programação lógica (Prolog)
