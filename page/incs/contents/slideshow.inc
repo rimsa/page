@@ -112,6 +112,12 @@
           <img src="<?= $settings->basePage ?>/images/banner/saomigueldosmilagres1.jpg" alt="Praia de São Miguel dos Milagres - São Miguel dos Milagres, AL/Brasil">
           <img src="<?= $settings->basePage ?>/images/banner/saomigueldosmilagres2.jpg" alt="Piscinas Naturais - São Miguel dos Milagres, AL/Brasil">
           <img src="<?= $settings->basePage ?>/images/banner/ruinasmosteirosaobento.jpg" alt="Ruínas do Mosteiro de São Bento - Maragogi, AL/Brasil">
+          <img src="<?= $settings->basePage ?>/images/banner/andorinhas.jpg" alt="Cachoeira das Andorinhas - Serrá do Cipó, MG/Brasil">
+          <img src="<?= $settings->basePage ?>/images/banner/janeladoceu.jpg" alt="Janela do Céu - Ibitipoca, MG/Brasil">
+          <img src="<?= $settings->basePage ?>/images/banner/museudoamanha.jpg" alt="Museu do Amanhã - Rio de Janeiro, RJ/Brasil">
+          <img src="<?= $settings->basePage ?>/images/banner/lavadeiras.jpg" alt="Cachoeira das Lavadeiras (Parte alta) - Curimataí, MG/Brasil">
+          <img src="<?= $settings->basePage ?>/images/banner/santarita.jpg" alt="Cachoeira de Santa Rita - Curimataí, MG/Brasil">
+          <img src="<?= $settings->basePage ?>/images/banner/maquine.jpg" alt="Gruta de Maquiné - Cordisburgo, MG/Brasil">
         </div>
 <?php
 	}
