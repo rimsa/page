@@ -14,6 +14,7 @@ en;Andrei Rimsa, Marcelo D'Amorim, Fernando Magno Quintão Pereira, Roberto S. B
 EOF;
 
 $publications->conferences = <<<EOF
+pt;Éverton Araújo, Mateus Tymburibá, Andrei Rimsa;Instrumentação de programas binários legados para compatibilização com Intel CET;Simpósio Brasileiro em Segurança da Informação e de Sistemas Computacionais (SBSEG);2023;sblp23.pdf
 pt;Andrei Rimsa, José Nelson Amaral, Fernando Magno Quintão Pereira;Construção Eficiente e Precisa de Grafos de Fluxo de Controle Dinâmicos;Simpósio Brasileiro de Linguagens de Programação (SBLP);2019;sblp19.pdf
 en;Andrei Rimsa, Luis E. Zárate, Mark A. J. Song;SCGaz – A Synthetic Formal Context Generator with Density Control for Test and Evaluation of FCA Algorithms;IEEE International Conference on Systems, Man, and Cybernetics (SMC);2013;smc13.pdf
 en;Andrei Rimsa, Marcelo d'Amorim, Fernando Magno Quintão Pereira;Tainted Flow Analysis on e-SSA-form Programs;International Conference on Compiler Construction (CC);2011;cc11.pdf
