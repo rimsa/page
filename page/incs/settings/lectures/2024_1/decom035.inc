@@ -37,7 +37,7 @@ EOF
 );
 
 $lecture->homeworks = <<<EOF
-TP.pdf;;24/06;;Máquina de Turing Não-Determinística;Implementar um programa de computador que receba uma especificação de uma Máquina de Turing (MT) não-determinística e uma palavra de entrada e verifique se essa palavra pertence ou não a linguagem descrita por essa máquina.
+TP.pdf;;02/09;;Máquina de Turing Não-Determinística;Implementar um programa de computador que receba uma especificação de uma Máquina de Turing (MT) não-determinística e uma palavra de entrada e verifique se essa palavra pertence ou não a linguagem descrita por essa máquina.
 EOF;
 
 $lecture->grading = <<<EOF
@@ -82,31 +82,28 @@ $lecture->calendar = <<<EOF
 04/04/2024;theory;Autômatos finitos não determinísticos (AFN), equivalência entre AFD's e AFN's, AFN estendido e AFN λ.
 09/04/2024;exercise;Resolução de exercícios
 11/04/2024;exam;Prova 1
-16/04/2024;theory;LR's: Lema do bombeamento e propriedades de fechamento
-18/04/2024;theory;Gramáticas regulares
-23/04/2024;theory;Expressões regulares
-25/04/2024;theory;Autômatos de pilha determinístico (APD)
-30/04/2024;theory;Autômatos de pilha não determinístico (APN)
-02/05/2024;theory;Gramáticas livres de contexto (GLC)
-07/05/2024;theory;Derivação, ambiguidade e manipulação de GLC’s
-09/05/2024;theory;Forma normal de Chomsky
-14/05/2024;theory;Forma normal de Greibach
-16/05/2024;exercise;Resolução de exercícios
-21/05/2024;exam;Prova 2
-23/05/2024;theory;LLC's: Lema do bombeamento e propriedades de fechamento
-28/05/2024;theory;Máquinas de Turing
-30/05/2024;holiday;Feriado nacional: Corpus Christi
-04/06/2024;theory;Propriedades de Máquinas de Turing
-06/06/2024;theory;Variações de máquinas de Turing: cabeçote imóvel, múltiplas trilhas, fita ilimitada em ambas as direções
-11/06/2024;theory;Variações de máquinas de Turing: múltiplas fitas, não determinística
-13/06/2024;theory;Decidibilidade: tese de Church-Turing, MT's e PD's, MT Universal
-18/06/2024;theory;Decidibilidade: problema da parada, redução e teorema de Rice
-20/06/2024;exercise;Resolução de exercícios
-25/06/2024;exam;Prova 3
-27/06/2024;exercise;Resolução de exercícios
-02/07/2024;exam;Prova suplementar
-04/07/2024;exercise;Resolução de exercícios
-09/07/2024;exam;Prova especial
+04/07/2024;exercise;Revisão
+09/07/2024;theory;LR's: Lema do bombeamento e propriedades de fechamento
+11/07/2024;theory;Gramáticas regulares
+16/07/2024;theory;Expressões regulares
+18/07/2024;theory;Autômatos de pilha determinístico (APD) e não determinístico (APN)
+23/07/2024;theory;Gramáticas livres de contexto (GLC)
+25/07/2024;theory;Derivação, ambiguidade e manipulação de GLC’s
+30/07/2024;theory;Forma normal de Chomsky e Greibach
+01/08/2024;theory;Máquinas de Turing e propriedades
+06/08/2024;theory;Variações de máquinas de Turing: cabeçote imóvel, múltiplas trilhas, fita ilimitada em ambas as direções, múltiplas fitas, não determinística
+08/08/2024;exercise;Resolução de exercícios
+13/08/2024;exam;Prova 2
+15/08/2024;holiday;Feriado municipal: Assunção de Nossa Senhora
+20/08/2024;theory;LLC's: Lema do bombeamento e propriedades de fechamento
+22/08/2024;theory;Decidibilidade: tese de Church-Turing, MT's e PD's, MT universal
+27/08/2024;theory;Decidibilidade: Problema da parada, redução e teorema de Rice
+29/08/2024;exercise;Resolução de exercícios
+03/09/2024;exam;Prova 3
+05/09/2024;exercise;Resolução de exercícios
+10/09/2024;exam;Prova suplementar
+12/09/2024;exercise;Resolução de exercícios
+17/09/2024;exam;Prova especial
 EOF;
 
 ?>

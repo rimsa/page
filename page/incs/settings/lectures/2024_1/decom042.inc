@@ -59,21 +59,20 @@ $lecture->calendar = <<<EOF
 14/03/2024;theory;Comandos básicos
 21/03/2024;theory;Processamento de texto
 28/03/2024;holiday;Recesso escolar: Paixão de Cristo
-04/04/2024;theory;Sistemas de arquivos
-11/04/2024;theory;Processos
-18/04/2024;theory;Entradas, saídas e redirecionamentos (1/2)
-25/04/2024;theory;Entradas, saídas e redirecionamentos (2/2)
-02/05/2024;theory;Expansões (1/2)
-09/05/2024;theory;Expansões (2/2)
-16/05/2024;theory;Parâmetros e variáveis
-23/05/2024;theory;Estruturas de fluxo condicionais
-30/05/2024;holiday;Feriado nacional: Corpus Christi
-06/06/2024;theory;Estruturas de repetição
-13/06/2024;theory;Expressões regulares
-20/06/2024;theory;sed
-27/06/2024;theory;awk
-04/07/2024;exam;Prova
-11/07/2024;exam;Prova especial
+04/04/2024;theory;Sistemas de arquivos (1/2)
+11/04/2024;theory;Sistemas de arquivos (2/2)
+04/07/2024;exercise;Revisão
+11/07/2024;theory;Processos
+18/07/2024;theory;Entradas, saídas e redirecionamentos
+25/07/2024;theory;Expansões
+01/08/2024;theory;Parâmetros e variáveis
+08/08/2024;theory;Estruturas de fluxo condicionais e de repetição
+15/08/2024;holiday;Feriado municipal: Assunção de Nossa Senhora
+22/08/2024;theory;Expressões regulares
+29/08/2024;theory;sed
+05/09/2024;theory;awk
+12/09/2024;exam;Prova
+19/09/2024;exam;Prova especial
 EOF;
 
 ?>

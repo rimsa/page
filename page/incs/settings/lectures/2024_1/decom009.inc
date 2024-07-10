@@ -83,55 +83,52 @@ EOF
 );
 
 $lecture->homeworks = <<<EOF
-tp1/TP1.pdf;https://youtu.be/8lemN5BHUYk;13/05;tp1/code.zip;miniElixir;O objetivo desse trabalho é desenvolver um interpretador para um subconjunto de uma linguagem de programação conhecida. Para isso foi criada miniElixir, uma linguagem de programação de brinquedo baseada em Elixir.
-tp2/TP2.pdf;https://youtu.be/1PLl5cMAPas;17/06;tp2/pursuit.zip;Pursuit;O objetivo desse trabalho é desenvolver o jogo Pursuit em um ambiente orientado a eventos usando Qt com C++.
-tp3/TP3.pdf;;24/06;;Haskell;O objetivo desse trabalho é desenvolver 15 programas em Haskell.
-tp4/TP4.pdf;;01/07;;Prolog;O objetivo desse trabalho é desenvolver 15 programas em Prolog.
+tp1/TP1.pdf;https://youtu.be/8lemN5BHUYk;05/08;tp1/code.zip;miniElixir;O objetivo desse trabalho é desenvolver um interpretador para um subconjunto de uma linguagem de programação conhecida. Para isso foi criada miniElixir, uma linguagem de programação de brinquedo baseada em Elixir.
+tp2/TP2.pdf;https://youtu.be/1PLl5cMAPas;26/08;tp2/pursuit.zip;Pursuit;O objetivo desse trabalho é desenvolver o jogo Pursuit em um ambiente orientado a eventos usando Qt com C++.
+tp3/TP3.pdf;;02/09;;Haskell;O objetivo desse trabalho é desenvolver 15 programas em Haskell.
+tp4/TP4.pdf;;09/09;;Prolog;O objetivo desse trabalho é desenvolver 15 programas em Prolog.
 EOF;
 
 $lecture->seminars = <<<EOF
-seminars.pdf;24/06;Seminários sobre linguagens de programação para que os alunos tenham contato com informações, motivações, características de diversas linguagens.
+seminars.pdf;02/09;Seminários sobre linguagens de programação para que os alunos tenham contato com informações, motivações, características de diversas linguagens.
 EOF;
 
 $lecture->calendar = <<<EOF
 05/03/2024;laboratory;Apresentação da disciplina (lab)
 07/03/2024;theory;Apresentação da disciplina
-12/03/2024;laboratory;TP1: Interpretador (1/9)
+12/03/2024;laboratory;TP1: Interpretador (1/8)
 14/03/2024;theory;Sintaxe e semântica
-19/03/2024;laboratory;TP1: Interpretador (2/9)
+19/03/2024;laboratory;TP1: Interpretador (2/8)
 21/03/2024;theory;Sistemas de linguagens
-26/03/2024;laboratory;TP1: Interpretador (3/9)
+26/03/2024;laboratory;TP1: Interpretador (3/8)
 28/03/2024;holiday;Recesso escolar: Paixão de Cristo
-02/04/2024;laboratory;TP1: Interpretador (4/9)
+02/04/2024;laboratory;TP1: Interpretador (4/8)
 04/04/2024;theory;Nomes, amarrações e escopo (1/2)
-09/04/2024;laboratory;TP1: Interpretador (5/9)
+09/04/2024;laboratory;TP1: Interpretador (5/8)
 11/04/2024;theory;Nomes, amarrações e escopo (2/2)
-16/04/2024;laboratory;TP1: Interpretador (6/9)
-18/04/2024;theory;Tipos de dados
-23/04/2024;laboratory;TP1: Interpretador (7/9)
-25/04/2024;theory;Verificação de tipos
-30/04/2024;laboratory;TP1: Interpretador (8/9)
-02/05/2024;theory;Subprogramas
-07/05/2024;laboratory;TP1: Interpretador (9/9)
-09/05/2024;exam;Prova 1
-14/05/2024;exam;Prova 1 (lab)
-16/05/2024;theory;Programação orientada a objetos
-21/05/2024;laboratory;TP2: Programação orientada a eventos (1/4)
-23/05/2024;theory;Tratamento de exceções
-28/05/2024;laboratory;TP2: Programação orientada a eventos (2/4)
-30/05/2024;holiday;Feriado nacional: Corpus Christi
-04/06/2024;laboratory;TP2: Programação orientada a eventos (3/4)
-06/06/2024;theory;Programação concorrente
-11/06/2024;laboratory;TP2: Programação orientada a eventos (4/4)
-13/06/2024;theory;Programação funcional (Haskell)
-18/06/2024;laboratory;TP3: Programação funcional (Haskell)
-20/06/2024;theory;Programação lógica (Prolog)
-25/06/2024;laboratory;TP4: Programação lógica (Prolog)
-27/06/2024;exam;Prova 2
-02/07/2024;exam;Prova 2 (lab)
-04/07/2024;exam;Prova suplementar
-09/07/2024;exam;Prova especial (lab)
-11/07/2024;exam;Prova especial
+04/07/2024;exercise;Revisão
+09/07/2024;laboratory;TP1: Interpretador (6/8)
+11/07/2024;theory;Verificação de tipos
+16/07/2024;laboratory;TP1: Interpretador (7/8)
+18/07/2024;theory;Subprogramas
+23/07/2024;laboratory;TP1: Interpretador (8/8)
+25/07/2024;exam;Prova 1
+30/07/2024;exam;Prova 1 (lab)
+01/08/2024;theory;Programação orientada a objetos
+06/08/2024;laboratory;TP2: Programação orientada a eventos (1/3)
+08/08/2024;theory;Tratamento de exceções
+13/08/2024;laboratory;TP2: Programação orientada a eventos (2/3)
+15/08/2024;holiday;Feriado municipal: Assunção de Nossa Senhora
+20/08/2024;laboratory;TP2: Programação orientada a eventos (3/3)
+22/08/2024;theory;Programação funcional (Haskell)
+27/08/2024;laboratory;TP3: Programação funcional (Haskell)
+29/08/2024;theory;Programação lógica (Prolog)
+03/09/2024;laboratory;TP4: Programação lógica (Prolog)
+05/09/2024;exam;Prova 2
+10/09/2024;exam;Prova 2 (lab)
+12/09/2024;exam;Prova suplementar
+17/09/2024;exam;Prova especial (lab)
+19/09/2024;exam;Prova especial
 EOF;
 
 ?>
