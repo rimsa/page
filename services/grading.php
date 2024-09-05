@@ -65,7 +65,7 @@ $args->registry = preg_replace('/[^0-9]/', '', strtolower($_REQUEST['registry'])
 
 in_array($settings->lecture, $settings->lectures) or abortService();
 (@include_once($settings->basePath . '/incs/settings/lectures/' . $settings->lecture . '.inc')) or abortService();
-in_array($args->term, $lecture->offers) or abortService();
+array_key_exists($args->term, $lecture->offers) or abortService();
 isset($lecture->grading) or abortService();
 (@include_once($settings->basePath . '/incs/classes/grading.inc')) or abortService();
 (@include_once($settings->basePath . '/incs/grades/' . $args->term . '/' . $settings->lecture . '/' . $args->registry . '.inc')) or abortService();
@@ -94,7 +94,7 @@ echo "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?>\n";
 <grading>
   <name><?= $grading->name ?></name>
 <?php
-    if ($args->term == $lecture->offers[0]) {
+    if ($args->term == array_key_first($lecture->offers)) {
 ?>
   <link><?= $grading->link ?></link>
 <?php

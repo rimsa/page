@@ -17,8 +17,10 @@
 <?php
 		foreach (explode(PHP_EOL, $lecture->seminars) as $seminars) {
 			list($sem, $date, $description) = explode(';', $seminars);
-			$currentPath = $settings->baseDocuments . '/lectures/' . $settings->lecture .
-			               '/seminars/' . $lecture->term . '/';
+			$currentPath = $settings->baseDocuments .
+							'/lectures/' . $settings->lecture .
+							'/c' . $lecture->curriculum .
+							'/seminars/' . $lecture->term . '/';
 ?>
 		  <tr>
 			<td class="sem">

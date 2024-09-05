@@ -11,7 +11,7 @@
       <li><b><?= $settings->translation->classes['term'] ?>: </b>
         <select id="termsel">
 <?php
-	foreach ($lecture->offers as $offer) {
+	foreach ($lecture->offers as $offer => $curriculum) {
 ?>
           <option value="<?= $offer ?>" <?= ($lecture->term == $offer ? 'selected' : '') ?>><?= $offer ?></option>
 <?php

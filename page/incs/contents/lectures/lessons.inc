@@ -18,7 +18,9 @@
 <?php
 		foreach (explode(PHP_EOL, $lecture->lessons) as $lesson) {
 			list($name, $lesson, $video, $exercise, $description) = explode(';', $lesson);
-			$currentPath = $settings->baseDocuments . '/lectures/' . $settings->lecture . '/';
+			$currentPath = $settings->baseDocuments .
+						   '/lectures/' . $settings->lecture .
+						   '/c' . $lecture->curriculum . '/';
 ?>
 	      <tr>
 	        <td class="lecture">

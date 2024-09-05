@@ -20,7 +20,9 @@
 <?php
 		foreach (explode(PHP_EOL, $lecture->homeworks) as $homework) {
 			list($homework, $video, $date, $support, $title, $description) = explode(';', $homework);
-			$currentPath = $settings->baseDocuments . '/lectures/' . $settings->lecture .
+			$currentPath = $settings->baseDocuments .
+						   '/lectures/' . $settings->lecture .
+			               '/c' . $lecture->curriculum .
 			               '/homeworks/' . $lecture->term . '/';
 ?>
 		<tr>
