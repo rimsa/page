@@ -16,7 +16,7 @@ Toda a comunicação será feita exclusivamente via twitter (avisos) e lista de 
 Dúvidas da matéria somente pela lista de discussão (ignorados em outros e-mails)
 EOF
 ,	'Provas' => <<<EOF
-Individual ou em dupla (de dois, ok?).
+Individual
 Esperar pelo menos 30 minutos antes de entregar a prova
 Acesso o material de aula e testes é permitido
 Soluções transcritas para a prova impressa
