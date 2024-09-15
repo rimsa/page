@@ -17,7 +17,7 @@
 	    <tbody>
 <?php
 		foreach (explode(PHP_EOL, $lecture->lessons) as $lesson) {
-			list($name, $lesson, $video, $exercise, $description) = explode(';', $lesson);
+			list($name, $lesson, $video, $exercise) = explode(';', $lesson);
 			$currentPath = $settings->baseDocuments .
 						   '/lectures/' . $settings->lecture .
 						   '/c' . $lecture->curriculum . '/';
@@ -44,7 +44,7 @@
 	            }
 	        ?>
 	        </td>
-	        <td class="description"><b><?= $name ?>: </b><?= $description ?></td>
+	        <td class="description"><b><?= $name ?></b></td>
 	      </tr>
 <?php
 		}
