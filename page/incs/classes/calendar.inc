@@ -2,16 +2,18 @@
 
 abstract class LectureType {
 
-	const Theory     = 'theory';
-	const Laboratory = 'laboratory';
-	const Exercise   = 'exercise';
-	const Exam       = 'exam';
-	const Holiday    = 'holiday';
-	const Unknown    = '';
+	const Theory       = 'theory';
+	const Laboratory   = 'laboratory';
+	const Presentation = 'presentation';
+	const Exercise     = 'exercise';
+	const Exam         = 'exam';
+	const Holiday      = 'holiday';
+	const Unknown      = '';
 
 	public static function types() {
-		return array(self::Theory, self::Laboratory, self::Exercise,
-				     self::Exam, self::Holiday);
+		return array(self::Theory, self::Laboratory,
+						self::Presentation, self::Exercise,
+						self::Exam, self::Holiday);
 	}
 
 	public static function isValid($type) {

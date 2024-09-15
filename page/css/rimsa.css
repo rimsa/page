@@ -1096,6 +1096,14 @@ section > ul {
     background-repeat: no-repeat;
 }
 
+#calendar .presentation {
+    padding: 0px 0px 0px 20px;
+    background-image: url('../images/icons/calendar/presentation.png');
+    background-position: 0px 2px;
+    background-size: 16px 16px;
+    background-repeat: no-repeat;
+}
+
 #calendar .exam {
     padding: 0px 0px 0px 20px;
     background-image: url('../images/icons/calendar/exam.png');

@@ -3,7 +3,9 @@
 	date_default_timezone_set("UTC");
  
 	function trType($type) {
-		if ($type === LectureType::Holiday)
+		if ($type === LectureType::Presentation)
+			return 'class="info"';
+		else if ($type === LectureType::Holiday)
 			return 'class="success"';
 		else if ($type === LectureType::Exercise)
 			return 'class="warning"';
