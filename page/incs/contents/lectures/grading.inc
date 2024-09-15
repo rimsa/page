@@ -6,6 +6,7 @@
 			case GradeType::Exam:
 			case GradeType::Exercise:
 			case GradeType::Homework:
+			case GradeType::Project:
 			case GradeType::Seminar:
 			case GradeType::Extra:
 			case GradeType::Total:

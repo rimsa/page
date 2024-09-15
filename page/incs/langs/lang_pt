@@ -38,6 +38,7 @@ grading="Pontuação"
 ta="Monitor"
 lessons="Aulas"
 homeworks="Trabalhos"
+projects="Projetos"
 seminars="Seminários"
 calendar="Calendário"
 
@@ -67,6 +68,11 @@ video="vídeo"
 date="data"
 description="descrição"
 support="apoio"
+
+[projects]
+pro="pro."
+date="data"
+description="descrição"
 
 [seminars]
 sem="sem."

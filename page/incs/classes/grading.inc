@@ -5,6 +5,7 @@ abstract class GradeType {
 	const Exam     = 'exam';
 	const Exercise = 'exercise';
 	const Homework = 'homework';
+	const Project  = 'project';
 	const Seminar  = 'seminar';
 	const Extra    = 'extra';
 	const Total    = 'total';
@@ -13,8 +14,8 @@ abstract class GradeType {
 
 	public static function types() {
 		return array(self::Exam, self::Exercise, self::Homework,
-				     self::Seminar, self::Extra, self::Total,
-					 self::Special, self::Last);
+						self::Project, self::Seminar, self::Extra,
+						self::Total, self::Special, self::Last);
 	}
 
 	public static function isValid($type) {
@@ -154,6 +155,7 @@ class Grades {
 		GradeType::Exam     => null,
 		GradeType::Exercise => null,
 		GradeType::Homework => null,
+		GradeType::Project  => null,
 		GradeType::Seminar  => null,
 		GradeType::Extra    => null,
 		GradeType::Total    => null,
@@ -174,13 +176,15 @@ class Grades {
 			case GradeType::Exam:
 			case GradeType::Exercise:
 			case GradeType::Homework:
+			case GradeType::Project:
 			case GradeType::Seminar:
 				break;
 			case GradeType::Extra:
 				if (isset($grade)) {
 					$extras = $grade->grade();
 					foreach (array(GradeType::Exam, GradeType::Exercise,
-							       GradeType::Homework, GradeType::Seminar) as $t) {
+									GradeType::Homework, GradeType::Project,
+									GradeType::Seminar) as $t) {
 						$g = $this->getGradeByType($t);
 						if (isset($g))
 							$extras += $g->extra();
@@ -199,8 +203,8 @@ class Grades {
 				$max = 0;
 				$total = null;
 				foreach (array(GradeType::Exam, GradeType::Exercise,
-							   GradeType::Homework, GradeType::Seminar,
-							   GradeType::Extra) as $t) {
+								GradeType::Homework, GradeType::Project,
+								GradeType::Seminar, GradeType::Extra) as $t) {
 					$g = $this->getGradeByType($t);
 					if (isset($g)) {
 						$v = $g->grade();

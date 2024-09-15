@@ -11,6 +11,7 @@
     include_once('syllabus.inc');
 	include_once('lessons.inc');
 	include_once('homeworks.inc');
+    include_once('projects.inc');
 	include_once('seminars.inc');
 	include_once('ta.inc');
 	include_once('calendar.inc');

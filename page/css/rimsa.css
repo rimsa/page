@@ -794,6 +794,14 @@ section > ul {
     background-repeat: no-repeat;
 }
 
+#grading div.project-icon {
+    padding: 0px 0px 0px 20px;
+    background-image: url('../images/icons/grading/project.png');
+    background-position: 0px 2px;
+    background-size: 16px 16px;
+    background-repeat: no-repeat;
+}
+
 #grading div.seminar-icon {
     padding: 0px 0px 0px 20px;
     background-image: url('../images/icons/grading/seminar.png');
@@ -975,6 +983,39 @@ section > ul {
 
 #homeworks span.video-icon:hover {
     background: url('../images/classes/video-hover.png') no-repeat;
+}
+
+#projects .projects-container {
+    padding: 0px;
+}
+
+#projects th.pro {
+    width: 5%;
+}
+
+#projects th.date {
+    width: 5%;
+}
+
+#projects th.description {
+    width: 90%;
+}
+
+#projects td.description {
+	text-align: justify;
+	text-justify: inter-word;
+	vertical-align: top;
+}
+
+#projects span.projects-icon {
+    width: 24px;
+	height: 24px;
+	display: inline-block;
+    background: url('../images/classes/project.png') no-repeat;
+}
+
+#projects span.projects-icon:hover {
+    background: url('../images/classes/project-hover.png') no-repeat;
 }
 
 #seminars .seminars-container {
@@ -1236,7 +1277,11 @@ section > ul {
     #homeworks .homeworks-container {
     	padding: 0px 20px 0px 20px;
 	}
-	
+
+    #projects .projects-container {
+    	padding: 0px 20px 0px 20px;
+	}
+
 	#seminars .seminars-container {
     	padding: 0px 20px 0px 20px;
 	}

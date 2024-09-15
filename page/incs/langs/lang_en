@@ -38,6 +38,7 @@ grading="Grading"
 ta="Teaching Assistant"
 lessons="Lessons"
 homeworks="Homeworks"
+projects="Projects"
 seminars="Seminars"
 calendar="Calendar"
 
@@ -67,6 +68,11 @@ video="video"
 date="date"
 description="description"
 support="support"
+
+[projects]
+pro="pro."
+date="date"
+description="description"
 
 [seminars]
 sem="sem."
