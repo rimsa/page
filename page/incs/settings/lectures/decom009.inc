@@ -1,8 +1,6 @@
 <?php
 
 $lecture = new Settings();
-$lecture->name = 'Linguagens de Programação';
-$lecture->code = '2ECOM.009';
 $lecture->image = 'images/classes/lp.png';
 $lecture->departament = 'DECOM';
 $lecture->offers = array(
@@ -28,7 +26,12 @@ $lecture->term = (array_key_exists('term', $_REQUEST) and array_key_exists($_REQ
 $lecture->curriculum = $lecture->offers[$lecture->term];
 $lecture->dlist = 'decom009';
 
-$lecture->syllabus = <<<EOF
+switch ($lecture->curriculum) {
+	case 1:
+		$lecture->name = 'Linguagens de Programação';
+		$lecture->code = '2ECOM.009';
+
+		$lecture->syllabus = <<<EOF
 Evolução das principais linguagens
 Noções de sintaxe e semântica
 Nomes, vinculações
@@ -42,7 +45,7 @@ Tratamento de exceções
 Linguagens funcionais e lógicas
 EOF;
 
-$lecture->lessons = <<<EOF
+		$lecture->lessons = <<<EOF
 Apresentação da disciplina;Aula00.pdf;https://youtu.be/G6P7d0S4OTU;
 Sintaxe e semântica;Aula01.pdf;https://youtu.be/bptWCmZD7uM;Lista01.pdf
 Sistemas de linguagens;Aula02.pdf;https://youtu.be/TlhemqTYAY8;Lista02.pdf
@@ -56,6 +59,43 @@ Programação concorrente;Aula09.pdf;https://youtu.be/vvReFLnLN3E;Lista09.pdf
 Programação funcional;Aula10.pdf;https://youtu.be/fP4ARSturKw;Lista10.pdf
 Programação lógica;Aula11.pdf;https://youtu.be/USYQ7A4qR8o;Lista11.pdf
 EOF;
+
+		break;
+	case 2:
+		$lecture->name = 'Linguagens de Programação';
+		$lecture->code = 'G00LPRG0.01';
+
+		$lecture->syllabus = <<<EOF
+Histórico e evolução de linguagens de programação
+Conceitos de linguagens de programação: sistemas de linguagens, nomes, amarrações, escopo, tipos de dados, verificação de tipos, expressões e atribuições, estruturas de controle, subprogramas, tipos abstratos de dados, encapsulamento, polimorfismo, tratamento de exceções, localização e gerenciamento de memória
+Paradigmas de linguagens de programação: procedurais, orientadas a objetos, orientadas a eventos, concorrentes, funcionais, lógicas
+EOF;
+
+		$lecture->lessons = <<<EOF
+Apresentação da disciplina;Aula00.pdf;https://youtu.be/G6P7d0S4OTU;
+Sintaxe e semântica;Aula01.pdf;https://youtu.be/bptWCmZD7uM;Lista01.pdf
+Sistemas de linguagens;Aula02.pdf;https://youtu.be/TlhemqTYAY8;Lista02.pdf
+Nomes e amarrações;Aula03.pdf;https://youtu.be/PCOlkw6U7pI;Lista03.pdf
+Programação funcional: SML básico;Aula04.pdf;;Lista04.pdf
+Tipos;Aula05.pdf;;Lista05.pdf
+Polimorfismo;Aula06.pdf;;Lista06.pdf
+Escopo;Aula07.pdf;;Lista07.pdf
+Cálculo-λ;Aula08.pdf;;Lista08.pdf
+Programação funcional: SML avançado;Aula09.pdf;;Lista09.pdf
+Localização de variáveis;Aula10.pdf;;Lista10.pdf
+Orientação a objetos;Aula11.pdf;https://youtu.be/PVE5ZV9g3iE;Lista11.pdf
+Tratamento de exceções;Aula12.pdf;https://youtu.be/RhLfggLIrKU;Lista12.pdf
+Parâmetros;Aula13.pdf;;Lista13.pdf
+Programação lógica: Prolog;Aula14.pdf;https://youtu.be/USYQ7A4qR8o;Lista14.pdf
+Modelos de custo;Aula15.pdf;;Lista15.pdf
+Semântica formal;Aula16.pdf;;Lista16.pdf
+EOF;
+
+		break;
+	default:
+		assert(false, "Invalid curriculum.");
+		break;
+}
 
 $file = $settings->basePath . '/incs/settings/lectures/' . $lecture->term . '/' . $settings->lecture . '.inc';
 if (file_exists($file))

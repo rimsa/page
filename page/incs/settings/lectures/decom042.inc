@@ -1,8 +1,6 @@
 <?php
 
 $lecture = new Settings();
-$lecture->name = 'Tópicos Especiais em PC: Programação em Linux';
-$lecture->code = 'DECOM.42';
 $lecture->image = 'images/classes/shell.png';
 $lecture->departament = 'DECOM';
 $lecture->offers = array(
@@ -28,7 +26,12 @@ $lecture->term = (array_key_exists('term', $_REQUEST) and array_key_exists($_REQ
 $lecture->curriculum = $lecture->offers[$lecture->term];
 $lecture->dlist = 'decom042';
 
-$lecture->syllabus = <<<EOF
+switch ($lecture->curriculum) {
+	case 1:
+		$lecture->name = 'Tópicos Especiais em Programação de Computadores: Programação em Linux';
+		$lecture->code = 'DECOM.42';
+
+		$lecture->syllabus = <<<EOF
 Introdução à programação no sistema operacional Linux
 Comandos e ferramentas de programação do Linux
 Programação de scripts em terminal
@@ -36,20 +39,44 @@ O comando sed
 A linguagem de programação AWK
 EOF;
 
+		break;
+	case 2:
+		$lecture->name = 'Tópicos Especiais em Fundamentos da Computação: Shell Scripting';
+		$lecture->code = 'GT00COM001.1';
+
+		$lecture->syllabus = <<<EOF
+Comandos básicos
+Processamento de texto
+Sistema de arquivos
+Processos
+Entradas, saídas e redirecionamentos
+Expansões
+Parâmetros e variáveis
+Estruturas de fluxo condicionais e de repetição
+Expressões regulares
+sed
+AWK
+EOF;
+
+		break;
+	default:
+		assert(false, "Invalid curriculum.");
+		break;
+}
+
 $lecture->lessons = <<<EOF
 Apresentação da disciplina;Aula00.pdf;https://youtu.be/mvfFNpWsxTI;
-Comandos básicos;Aula01.pdf;https://youtu.be/_XToHnD-osE;Teste01.pdf
-Processamento de texto;Aula02.pdf;https://youtu.be/wUqIJ8ltDpc;Teste02.pdf
-Sistemas de arquivos;Aula03.pdf;https://youtu.be/4n8fHg-fNgg;Teste03.pdf
-Processos;Aula04.pdf;https://youtu.be/ICYGoYe32xA;Teste04.pdf
-Entradas, saídas e redirecionamentos;Aula05.pdf;https://youtu.be/TC-blLUQyxI;Teste05.pdf
-Expansões;Aula06.pdf;https://youtu.be/3A3TBgyMcGM;Teste06.pdf
-Parâmetros e variáveis;Aula07.pdf;https://youtu.be/l3O2wI7NoOs;Teste07.pdf
-Estruturas de fluxo condicionais;Aula08.pdf;https://youtu.be/i9-A5ncj4Sc;Teste08.pdf
-Estruturas de repetição;Aula09.pdf;https://youtu.be/1iun6uCfMoE;Teste09.pdf
-Expressões regulares;Aula10.pdf;https://youtu.be/BDsj5uvxLHg;Teste10.pdf
-sed;Aula11.pdf;https://youtu.be/VDEbKGnoNpA;Teste11.pdf
-awk;Aula12.pdf;https://youtu.be/RvwgPSG6LMc;Teste12.pdf
+Comandos básicos;Aula01.pdf;https://youtu.be/_XToHnD-osE;Lista01.pdf
+Processamento de texto;Aula02.pdf;https://youtu.be/wUqIJ8ltDpc;Lista02.pdf
+Sistemas de arquivos;Aula03.pdf;https://youtu.be/4n8fHg-fNgg;Lista03.pdf
+Processos;Aula04.pdf;https://youtu.be/ICYGoYe32xA;Lista04.pdf
+Entradas, saídas e redirecionamentos;Aula05.pdf;https://youtu.be/TC-blLUQyxI;Lista05.pdf
+Expansões;Aula06.pdf;https://youtu.be/3A3TBgyMcGM;Lista06.pdf
+Parâmetros e variáveis;Aula07.pdf;https://youtu.be/l3O2wI7NoOs;Lista07.pdf
+Estruturas de fluxo condicionais e de repetição;Aula08.pdf;https://youtube.com/playlist?list=PLzoHPr9z_QGYCxtwEuK_9661aibCyPcT_;Lista08.pdf
+Expressões regulares;Aula09.pdf;https://youtu.be/BDsj5uvxLHg;Lista09.pdf
+sed;Aula10.pdf;https://youtu.be/VDEbKGnoNpA;Lista10.pdf
+AWK;Aula11.pdf;https://youtu.be/RvwgPSG6LMc;Lista11.pdf
 EOF;
 
 $file = $settings->basePath . '/incs/settings/lectures/' . $lecture->term . '/' . $settings->lecture . '.inc';
