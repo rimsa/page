@@ -1,9 +1,3 @@
-function configTwitter(intentEvent) {
-	// The footer may have been resized by the config.
-	// Update the footer to reflect this change.
-	updateFooter(true);
-}
-
 function calcHeaderSize() {
 	// Default padding is 60px.
 	padding = 60;
@@ -228,10 +222,6 @@ $(document).on('show.bs.offcanvas', function () {
 
 $(document).on('hidden.bs.offcanvas', function () {
 	updateFooter(true);
-});
-
-twttr.ready(function(twttr) {
-	twttr.events.bind('rendered', configTwitter);
 });
 
 $(window).ready(function() {

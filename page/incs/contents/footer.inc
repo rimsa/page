@@ -1,6 +1,7 @@
     <div id="footer" class="container-fluid">
       <div class="row">
-        <div class="col-sm-4 info">
+        <div class="col-sm-3">&nbsp;</div>
+        <div class="col-sm-3 info">
           <h4><?= $settings->translation->footer['info'] ?></h4>
           <p>
             <i class="icon-map-marker"></i>&nbsp;
@@ -17,16 +18,12 @@
             <i class="icon-globe"></i>&nbsp;<a href="http://<?= $settings->pageUrl ?>"><?= $settings->pageUrl ?></a>
           </p>
         </div>
-        <div class="col-sm-6">
-          <h4><?= $settings->translation->footer['tweets'] ?></h4>
-          <a class="twitter-timeline" href="https://twitter.com/andrei_cefetmg" data-widget-id="588875640897728513" data-tweet-limit="3" data-chrome="noheader nofooter noborders transparent" data-height="250" data-theme="dark" data-dnt="true">Tweets by @andrei_cefetmg</a>
-        </div>
-        <div class="col-sm-2">
+        <div class="col-sm-3">
           <h4><?= $settings->translation->footer['follow'] ?></h4>
             <!-- social networks -->
             <a href="https://facebook.com/andrei.rimsa" class="social-facebook" target="_blank"></a>
             <a href="https://plus.google.com/+AndreiRimsaAlvares" class="social-googleplus" target="_blank"></a>
-            <a href="https://twitter.com/andrei_cefetmg" class="social-twitter" target="_blank"></a>
+            <a href="https://twitter.com/andrei_rimsa" class="social-twitter" target="_blank"></a>
             <a href="https://instagram.com/andrei_rimsa" class="social-instagram" target="_blank"></a>
             <a href="https://br.pinterest.com/andreirimsa" class="social-pinterest" target="_blank"></a>
             <a href="https://account.xbox.com/pt-BR/Profile?GamerTag=arimsa" class="social-xbox" target="_blank"></a>
@@ -48,6 +45,7 @@
             <a href="http://www.wikiloc.com/wikiloc/user.do?id=1424591" class="social-wikiloc" target="_blank"></a>
             <a href="https://www.strava.com/athletes/arimsa" class="social-strava" target="_blank"></a>
         </div>
+        <div class="col-sm-3">&nbsp;</div>
       </div>
     
       <div class="underfooter row">
