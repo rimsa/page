@@ -24,25 +24,31 @@
 ?>
 	      <tr>
 	        <td class="lecture">
+<?php
+            if (!empty($lesson)) {
+?>
 			    <a href="<?= $currentPath . 'lessons/' . $lesson ?>" target="_blank"><span class="lecture-icon"></span></a>
+<?php
+			}
+?>
 			</td>
 	        <td class="video">
-	        <?php
-                if (!empty($video)) {
-	        ?>
+<?php
+			if (!empty($video)) {
+?>
 	        	<a href="<?= $video ?>" target="_blank"><span class="video-icon"></span></a>
-	        <?php
+<?php
 	            }
-	        ?>
+?>
 	        </td>
 	        <td class="exercise">
-	        <?php
-                if (!empty($exercise)) {
-	        ?>
+<?php
+			if (!empty($exercise)) {
+?>
 	        	<a href="<?= $currentPath . 'exercises/' . $exercise ?>" target="_blank"><span class="exercise-icon"></span></a>
-	        <?php
-	            }
-	        ?>
+<?php
+			}
+?>
 	        </td>
 	        <td class="description"><b><?= $name ?></b></td>
 	      </tr>
