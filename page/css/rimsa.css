@@ -384,6 +384,8 @@ body > .container {
 .table-responsive > .table > thead > tr > td,
 .table-responsive > .table > thead > tr > th {
 	white-space: normal;
+    padding: 2px 5px;
+    vertical-align: top;
 }
 
 .table-borderless tbody tr td, .table-borderless tbody tr th, .table-borderless thead tr th {
@@ -884,7 +886,7 @@ section > ul {
 #lessons td.description {
 	text-align: justify;
 	text-justify: inter-word;
-	vertical-align: top;
+    vertical-align: middle;
 }
 
 #lessons span.lecture-icon {
@@ -951,7 +953,6 @@ section > ul {
 #homeworks td.description {
 	text-align: justify;
 	text-justify: inter-word;
-	vertical-align: top;
 }
 
 #homeworks a {
@@ -1004,7 +1005,6 @@ section > ul {
 #projects td.description {
 	text-align: justify;
 	text-justify: inter-word;
-	vertical-align: top;
 }
 
 #projects span.projects-icon {
@@ -1037,7 +1037,6 @@ section > ul {
 #seminars td.description {
 	text-align: justify;
 	text-justify: inter-word;
-	vertical-align: top;
 }
 
 #seminars span.seminars-icon {
