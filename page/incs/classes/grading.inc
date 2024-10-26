@@ -84,8 +84,7 @@ class SingleGradeEntry extends GradeEntry {
 	}
 
 	public function setGrade($value) {
-		assert($grade >= 0);
-
+		assert($value >= 0);
 		$this->value = $value;
 	}
 

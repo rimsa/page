@@ -72,7 +72,7 @@ isset($lecture->grading) or abortService();
 isset($grading) or abortService();
 
 // Send the headers
-header('Content-type: text/xml');
+header('Content-type: application/xml');
 header('Pragma: public');
 header('Cache-control: private');
 header('Expires: -1');
@@ -96,7 +96,7 @@ echo "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?>\n";
 <?php
     if ($args->term == array_key_first($lecture->offers)) {
 ?>
-  <link><?= $grading->link ?></link>
+  <link><?= htmlentities($grading->link) ?></link>
 <?php
 	} else {
 ?>
