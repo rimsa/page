@@ -75,19 +75,19 @@ EOF;
 		$lecture->lessons = <<<EOF
 Apresentação da disciplina;Aula00.pdf;https://youtu.be/G6P7d0S4OTU;
 Sintaxe e semântica;Aula01.pdf;https://youtu.be/bptWCmZD7uM;Lista01.pdf
-Sistemas de linguagens;Aula02.pdf;https://youtu.be/TlhemqTYAY8;Lista02.pdf
-Nomes e amarrações;Aula03.pdf;https://youtu.be/PCOlkw6U7pI;Lista03.pdf
-Programação funcional: SML básico;Aula04.pdf;;Lista04.pdf
-Tipos;Aula05.pdf;;Lista05.pdf
-Polimorfismo;Aula06.pdf;;Lista06.pdf
-Escopo;Aula07.pdf;;Lista07.pdf
+Sistemas de linguagens;Aula02.pdf;https://www.youtube.com/playlist?list=PLzoHPr9z_QGaRdSP9xwDXrJizRhPO8SDm;Lista02.pdf
+Programação funcional: SML básico;Aula03.pdf;;Lista03.pdf
+Tipos;Aula04.pdf;;Lista04.pdf
+Polimorfismo;Aula05.pdf;;Lista05.pdf
+Escopo;Aula06.pdf;;Lista06.pdf
+Programação funcional: SML avançado;Aula07.pdf;;Lista07.pdf
 Cálculo-λ;Aula08.pdf;;Lista08.pdf
-Programação funcional: SML avançado;Aula09.pdf;;Lista09.pdf
-Localização de variáveis;Aula10.pdf;;Lista10.pdf
-Orientação a objetos;Aula11.pdf;https://youtu.be/PVE5ZV9g3iE;Lista11.pdf
-Tratamento de exceções;Aula12.pdf;https://youtu.be/RhLfggLIrKU;Lista12.pdf
-Parâmetros;Aula13.pdf;;Lista13.pdf
-Programação lógica: Prolog;Aula14.pdf;https://youtu.be/USYQ7A4qR8o;Lista14.pdf
+Localização de variáveis;Aula09.pdf;;Lista09.pdf
+Orientação a objetos;Aula10.pdf;https://youtu.be/PVE5ZV9g3iE;Lista10.pdf
+Tratamento de exceções;Aula11.pdf;https://youtu.be/RhLfggLIrKU;Lista11.pdf
+Parâmetros;Aula12.pdf;;Lista12.pdf
+Programação lógica: Prolog;Aula13.pdf;https://youtu.be/USYQ7A4qR8o;Lista13.pdf
+Programação concorrente;Aula14.pdf;https://youtu.be/vvReFLnLN3E;Lista14.pdf
 Modelos de custo;Aula15.pdf;;Lista15.pdf
 Semântica formal;Aula16.pdf;;Lista16.pdf
 EOF;

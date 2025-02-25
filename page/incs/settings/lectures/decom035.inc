@@ -68,12 +68,12 @@ EOF;
 
 		$lecture->syllabus = <<<EOF
 Gramáticas
-Linguagens Formais
+Linguagens formais
 Expressões regulares
 Linguagens regulares
 Autômatos finitos determinísticos
 Autômatos finitos não determinístico
-Gramáticas Livres de Contexto
+Gramáticas livres de contexto
 Autômatos de pilha
 Linguagens recursivas
 Máquinas de Turing
