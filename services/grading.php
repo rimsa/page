@@ -60,16 +60,21 @@ function showGrade($grade) {
 (@include_once('../page/incs/classes/settings.inc')) or abortService();
 
 $args = new Settings();
-$args->term = preg_replace('/[^0-9_]/', '', strtolower($_REQUEST['term']));
 $args->registry = preg_replace('/[^0-9]/', '', strtolower($_REQUEST['registry']));
+if ($args->registry == '12345') {
+	$args->dummy = True;
+} else {
+	$args->dummy = False;
+	$args->term = preg_replace('/[^0-9_]/', '', strtolower($_REQUEST['term']));
 
-in_array($settings->lecture, $settings->lectures) or abortService();
-(@include_once($settings->basePath . '/incs/settings/lectures/' . $settings->lecture . '.inc')) or abortService();
-array_key_exists($args->term, $lecture->offers) or abortService();
-isset($lecture->grading) or abortService();
-(@include_once($settings->basePath . '/incs/classes/grading.inc')) or abortService();
-(@include_once($settings->basePath . '/incs/grades/' . $args->term . '/' . $settings->lecture . '/' . $args->registry . '.inc')) or abortService();
-isset($grading) or abortService();
+	in_array($settings->lecture, $settings->lectures) or abortService();
+	(@include_once($settings->basePath . '/incs/settings/lectures/' . $settings->lecture . '.inc')) or abortService();
+	array_key_exists($args->term, $lecture->offers) or abortService();
+	isset($lecture->grading) or abortService();
+	(@include_once($settings->basePath . '/incs/classes/grading.inc')) or abortService();
+	(@include_once($settings->basePath . '/incs/grades/' . $args->term . '/' . $settings->lecture . '/' . $args->registry . '.inc')) or abortService();
+	isset($grading) or abortService();
+}
 
 // Send the headers
 header('Content-type: application/xml');
@@ -92,9 +97,17 @@ echo "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?>\n";
     avg (below | above)        #IMPLIED>
 ]>
 <grading>
+<?php
+if ($args->dummy) {
+?>
+  <name>Fulano de tal</name>
+  <link><?= htmlentities('https://www.dropbox.com/scl/fo/9m4yiq4xkwzp8dy30jdfa/AAjIDG_lM92FO0IvOMqU_GE?rlkey=g21rxntcileoejjx5jjsr9z6s&st=xratyeaq') ?></link>
+<?php
+} else {
+?>
   <name><?= $grading->name ?></name>
 <?php
-    if ($args->term == array_key_first($lecture->offers)) {
+	if ($args->term == array_key_first($lecture->offers)) {
 ?>
   <link><?= htmlentities($grading->link) ?></link>
 <?php
@@ -105,28 +118,29 @@ echo "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?>\n";
 	}
 ?>
 <?php
-if (is_array($lecture->grading)) {
-	foreach ($lecture->grading as $lectType => $tempGrading) {
+	if (is_array($lecture->grading)) {
+		foreach ($lecture->grading as $lectType => $tempGrading) {
 ?>
   <mode type="<?= $lectType ?>">
 <?php
-		$grades = buildGrades($tempGrading);
+			$grades = buildGrades($tempGrading);
+			loadGrades($grades);
+			showGrades($grades);
+?>
+  </mode>
+<?php
+		}
+	} else {
+?>
+  <mode>
+<?php
+		$grades = buildGrades($lecture->grading);
 		loadGrades($grades);
 		showGrades($grades);
 ?>
   </mode>
 <?php
 	}
-} else {
-?>
-  <mode>
-<?php
-	$grades = buildGrades($lecture->grading);
-	loadGrades($grades);
-	showGrades($grades);
-?>
-  </mode>
-<?php
 }
 ?>
 </grading>
