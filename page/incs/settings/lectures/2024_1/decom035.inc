@@ -75,28 +75,28 @@ $lecture->calendar = <<<EOF
 12/03/2024;theory;Conceitos preliminares: relações, funções, conjuntos enumeráveis
 14/03/2024;theory;Conceitos preliminares: definições recursivas, indução, grafos
 19/03/2024;theory;Conceitos preliminares: linguagens formais, gramáticas, problemas de decisão
-21/03/2024;theory;Autômatos finitos determinísticos (AFD)
-26/03/2024;theory;Minimização de AFD's
+21/03/2024;theory;Autômatos finitos determinísticos (AFDs)
+26/03/2024;theory;Minimização de AFDs
 28/03/2024;holiday;Recesso escolar: Paixão de Cristo
-02/04/2024;theory;Propriedades de AFD's
-04/04/2024;theory;Autômatos finitos não determinísticos (AFN), equivalência entre AFD's e AFN's, AFN estendido e AFN λ.
+02/04/2024;theory;Propriedades de AFDs
+04/04/2024;theory;Autômatos finitos não determinísticos (AFNs), equivalência entre AFDs e AFNs, AFN estendido e AFN λ.
 09/04/2024;exercise;Resolução de exercícios
 11/04/2024;exam;Prova 1
 04/07/2024;exercise;Revisão
-09/07/2024;theory;LR's: Lema do bombeamento e propriedades de fechamento
+09/07/2024;theory;LRs: Lema do bombeamento e propriedades de fechamento
 11/07/2024;theory;Gramáticas regulares
 16/07/2024;theory;Expressões regulares
-18/07/2024;theory;Autômatos de pilha determinístico (APD) e não determinístico (APN)
-23/07/2024;theory;Gramáticas livres de contexto (GLC)
-25/07/2024;theory;Derivação, ambiguidade e manipulação de GLC’s
+18/07/2024;theory;Autômatos com pilha determinísticos (APDs) e não determinísticos (APNs)
+23/07/2024;theory;Gramáticas livres de contexto (GLCs)
+25/07/2024;theory;Derivação, ambiguidade e manipulação de GLCs
 30/07/2024;theory;Forma normal de Chomsky e Greibach
 01/08/2024;theory;Máquinas de Turing e propriedades
-06/08/2024;theory;Variações de máquinas de Turing: cabeçote imóvel, múltiplas trilhas, fita ilimitada em ambas as direções, múltiplas fitas, não determinística
+06/08/2024;theory;Variações de máquinas de Turing: cabeçote imóvel, múltiplas trilhas, fita ilimitada em ambas as direções, múltiplas fitas, não determinísticas
 08/08/2024;exercise;Resolução de exercícios
 13/08/2024;exam;Prova 2
 15/08/2024;holiday;Feriado municipal: Assunção de Nossa Senhora
-20/08/2024;theory;LLC's: Lema do bombeamento e propriedades de fechamento
-22/08/2024;theory;Decidibilidade: tese de Church-Turing, MT's e PD's, MT universal
+20/08/2024;theory;LLCs: Lema do bombeamento e propriedades de fechamento
+22/08/2024;theory;Decidibilidade: tese de Church-Turing, MTs e PDs, MT universal
 27/08/2024;theory;Decidibilidade: Problema da parada, redução e teorema de Rice
 29/08/2024;exercise;Resolução de exercícios
 03/09/2024;exam;Prova 3

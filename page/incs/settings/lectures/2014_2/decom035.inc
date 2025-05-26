@@ -68,29 +68,29 @@ $lecture->calendar = <<<EOF
 23/09/2014;theory;Conceitos preliminares: representações, provas de teoremas, conjuntos, relações, funções
 25/09/2014;theory;Conceitos preliminares:conjuntos enumeráveis, definições recursivas, indução, grafos
 30/09/2014;theory;Conceitos preliminares: linguagens formais, gramáticas, problemas de decisão
-02/10/2014;theory;Autômatos finitos determinísticos (AFD)
-07/10/2014;theory;Minimização de AFD's
-09/10/2014;theory;Propriedades de AFD's
-14/10/2014;theory;Autômatos finitos não determinísticos (AFN)
-16/10/2014;theory;Equivalência entre AFD's e AFN's
+02/10/2014;theory;Autômatos finitos determinísticos (AFDs)
+07/10/2014;theory;Minimização de AFDs
+09/10/2014;theory;Propriedades de AFDs
+14/10/2014;theory;Autômatos finitos não determinísticos (AFNs)
+16/10/2014;theory;Equivalência entre AFDs e AFNs
 21/10/2014;exercise;Resolução de exercícios
 23/10/2014;exam;Primeira prova
 28/10/2014;exercise;Correção da prova
-30/10/2014;theory;LR's: Lema do bombeamento
-04/11/2014;theory;LR's: Propriedades de fechamento
+30/10/2014;theory;LRs: Lema do bombeamento
+04/11/2014;theory;LRs: Propriedades de fechamento
 06/11/2014;theory;Expressões regulares
 11/11/2014;theory;Gramáticas regulares
-13/11/2014;theory;Autômatos de pilha determinístico (APD)
-18/11/2014;theory;Autômatos de pilha não determinístico (APN)
-20/11/2014;theory;Gramáticas livres de contexto (GLC)
-25/11/2014;theory;Manipulação de GLC's
-27/11/2014;theory;Formas normais sobre GLC's
+13/11/2014;theory;Autômatos com pilha determinísticos (APDs)
+18/11/2014;theory;Autômatos com pilha não determinísticos (APNs)
+20/11/2014;theory;Gramáticas livres de contexto (GLCs)
+25/11/2014;theory;Manipulação de GLCs
+27/11/2014;theory;Formas normais sobre GLCs
 02/12/2014;exercise;Resolução de exercícios
 04/12/2014;exam;Segunda prova
 09/12/2014;exercise;Correção da prova
-11/12/2014;theory;Equivalência entre GLC's e autômatos de pilha
-16/12/2014;theory;LLC's: Lema do bombeamento
-18/12/2014;theory;LLC's: Propriedades de fechamento
+11/12/2014;theory;Equivalência entre GLCs e autômatos com pilha
+16/12/2014;theory;LLCs: Lema do bombeamento
+18/12/2014;theory;LLCs: Propriedades de fechamento
 23/12/2014;holiday;Recesso escolar: Natal e Ano Novo
 25/12/2014;holiday;Recesso escolar: Natal e Ano Novo
 30/12/2014;holiday;Recesso escolar: Natal e Ano Novo

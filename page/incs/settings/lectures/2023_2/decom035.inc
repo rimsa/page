@@ -77,33 +77,33 @@ $lecture->calendar = <<<EOF
 15/08/2023;holiday;Feriado municipal: Assunção de Nossa Senhora
 17/08/2023;theory;Conceitos preliminares: definições recursivas, indução, grafos
 22/08/2023;theory;Conceitos preliminares: linguagens formais, gramáticas, problemas de decisão
-24/08/2023;theory;Autômatos finitos determinísticos (AFD)
-29/08/2023;theory;Minimização de AFD's
-31/08/2023;theory;Propriedades de AFD's
-05/09/2023;theory;Autômatos finitos não determinísticos (AFN)
+24/08/2023;theory;Autômatos finitos determinísticos (AFDs)
+29/08/2023;theory;Minimização de AFDs
+31/08/2023;theory;Propriedades de AFDs
+05/09/2023;theory;Autômatos finitos não determinísticos (AFNs)
 07/09/2023;holiday;Feriado nacional: Independência do Brasil
-12/09/2023;theory;Equivalência entre AFD's e AFN's
+12/09/2023;theory;Equivalência entre AFDs e AFNs
 14/09/2023;theory;AFN estendido e AFN λ
 19/09/2023;exercise;Resolução de exercícios
-21/09/2023;theory;LR's: Lema do bombeamento e propriedades de fechamento
+21/09/2023;theory;LRs: Lema do bombeamento e propriedades de fechamento
 26/09/2023;exam;Prova 1
 28/09/2023;theory;Gramáticas regulares e expressões regulares
-03/10/2023;theory;Autômatos de pilha determinístico (APD)
-05/10/2023;theory;Autômatos de pilha não determinístico (APN)
+03/10/2023;theory;Autômatos com pilha determinísticos (APDs)
+05/10/2023;theory;Autômatos com pilha não determinísticos (APNs)
 10/10/2023;holiday;Recesso escolar: Nossa Senhora Aparecida
 12/10/2023;holiday;Feriado nacional: Nossa Senhora Aparecida
-17/10/2023;theory;Gramáticas livres de contexto (GLC)
-19/10/2023;theory;Derivação, ambiguidade e manipulação de GLC’s
-24/10/2023;theory;Formas normais sobre GLC's
+17/10/2023;theory;Gramáticas livres de contexto (GLCs)
+19/10/2023;theory;Derivação, ambiguidade e manipulação de GLCs
+24/10/2023;theory;Formas normais sobre GLCs
 26/10/2023;exercise;Resolução de exercícios
 31/10/2023;exam;Prova 2
 02/11/2023;holiday;Feriado nacional: Finados
-07/11/2023;theory;LLC's: Lema do bombeamento e propriedades de fechamento
+07/11/2023;theory;LLCs: Lema do bombeamento e propriedades de fechamento
 09/11/2023;theory;Máquinas de Turing
 14/11/2023;theory;Propriedades de Máquinas de Turing
 16/11/2023;theory;Variações de máquinas de Turing: cabeçote imóvel, múltiplas trilhas, fita ilimitada em ambas as direções
-21/11/2023;theory;Variações de máquinas de Turing: múltiplas fitas, não determinística
-23/11/2023;theory;Decidibilidade: tese de Church-Turing, MT's e PD's, MT Universal
+21/11/2023;theory;Variações de máquinas de Turing: múltiplas fitas, não determinísticas
+23/11/2023;theory;Decidibilidade: tese de Church-Turing, MTs e PDs, MT Universal
 28/11/2023;theory;Decidibilidade: problema da parada, redução e teorema de Rice
 30/11/2023;exercise;Resolução de exercícios
 05/12/2023;exam;Prova 3

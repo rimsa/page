@@ -74,31 +74,31 @@ $lecture->calendar = <<<EOF
 19/10/2021;theory;Conceitos preliminares: representações, provas de teoremas, conjuntos, relações, funções
 21/10/2021;theory;Conceitos preliminares: conjuntos enumeráveis, definições recursivas, indução, grafos
 26/10/2021;theory;Conceitos preliminares: linguagens formais, gramáticas, problemas de decisão
-28/10/2021;theory;Autômatos finitos determinísticos (AFD)
+28/10/2021;theory;Autômatos finitos determinísticos (AFDs)
 02/11/2021;holiday;Feriado nacional: Finados
-04/11/2021;theory;Minimização de AFD's
-09/11/2021;theory;Propriedades de AFD's
-11/11/2021;theory;Autômatos finitos não determinísticos (AFN)
-16/11/2021;theory;Equivalência entre AFD's e AFN's, AFN estendido e AFN λ
+04/11/2021;theory;Minimização de AFDs
+09/11/2021;theory;Propriedades de AFDs
+11/11/2021;theory;Autômatos finitos não determinísticos (AFNs)
+16/11/2021;theory;Equivalência entre AFDs e AFNs, AFN estendido e AFN λ
 18/11/2021;exercise;Resolução de exercícios
 23/11/2021;exam;Prova 1
-25/11/2021;theory;LR's: Lema do bombeamento e propriedades de fechamento
+25/11/2021;theory;LRs: Lema do bombeamento e propriedades de fechamento
 30/11/2021;theory;Expressões regulares
 02/12/2021;theory;Gramáticas regulares
-07/12/2021;theory;Autômatos de pilha determinístico (APD) e não determinístico (APN)
-09/12/2021;theory;Gramáticas livres de contexto (GLC), derivação, ambiguidade e manipulação
-14/12/2021;theory;Formas normais sobre GLC's
+07/12/2021;theory;Autômatos com pilha determinísticos (APDs) e não determinísticos (APNs)
+09/12/2021;theory;Gramáticas livres de contexto (GLCs), derivação, ambiguidade e manipulação
+14/12/2021;theory;Formas normais sobre GLCs
 16/12/2021;exercise;Resolução de exercícios
 21/12/2021;exam;Prova 2
 23/12/2021;holiday;Recesso escolar
 28/12/2021;holiday;Recesso escolar
 30/12/2021;holiday;Recesso escolar
 04/01/2022;holiday;Recesso escolar
-06/01/2022;theory;LLC's: Lema do bombeamento e propriedades de fechamento
+06/01/2022;theory;LLCs: Lema do bombeamento e propriedades de fechamento
 11/01/2022;theory;Máquinas de Turing e propriedades
 13/01/2022;theory;Variações de máquinas de Turing: cabeçote imóvel, múltiplas trilhas, fita ilimitada em ambas as direções
-18/01/2022;theory;Variações de máquinas de Turing: múltiplas fitas e não determinística
-20/01/2022;theory;Decidibilidade: tese de Church-Turing, MT's e PD's, MT Universal
+18/01/2022;theory;Variações de máquinas de Turing: múltiplas fitas e não determinísticas
+20/01/2022;theory;Decidibilidade: tese de Church-Turing, MTs e PDs, MT Universal
 25/01/2022;theory;Decidibilidade: problema da parada, redução e teorema de Rice
 27/01/2022;exercise;Resolução de exercícios
 01/02/2022;holiday;Semana de estudos autônomos

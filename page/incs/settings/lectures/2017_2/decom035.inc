@@ -88,32 +88,32 @@ $lecture->calendar = <<<EOF
 10/08/2017;theory;Conceitos preliminares: definições recursivas, indução, grafos
 15/08/2017;holiday;Feriado municipal: Assunção de Nossa Senhora
 17/08/2017;theory;Conceitos preliminares: linguagens formais, gramáticas, problemas de decisão
-22/08/2017;theory;Autômatos finitos determinísticos (AFD)
-24/08/2017;theory;Minimização de AFD's
-29/08/2017;theory;Propriedades de AFD's
-31/08/2017;theory;Autômatos finitos não determinísticos (AFN)
-05/09/2017;theory;Equivalência entre AFD's e AFN's, AFN estendido e AFN λ
+22/08/2017;theory;Autômatos finitos determinísticos (AFDs)
+24/08/2017;theory;Minimização de AFDs
+29/08/2017;theory;Propriedades de AFDs
+31/08/2017;theory;Autômatos finitos não determinísticos (AFNs)
+05/09/2017;theory;Equivalência entre AFDs e AFNs, AFN estendido e AFN λ
 07/09/2017;holiday;Feriado nacional: Independência do Brasil
 12/09/2017;exercise;Correção de exercícios
 14/09/2017;exam;Prova 1
-19/09/2017;theory;LR's: Lema do bombeamento e propriedades de fechamento
+19/09/2017;theory;LRs: Lema do bombeamento e propriedades de fechamento
 21/09/2017;theory;Expressões regulares
 26/09/2017;theory;Gramáticas regulares
-28/09/2017;theory;Autômatos de pilha determinístico (APD)
-03/10/2017;theory;Autômatos de pilha não determinístico (APN)
-05/10/2017;theory;Gramáticas livres de contexto (GLC)
-10/10/2017;theory;Derivação, ambiguidade e manipulação de GLC’s
+28/09/2017;theory;Autômatos com pilha determinísticos (APDs)
+03/10/2017;theory;Autômatos com pilha não determinísticos (APNs)
+05/10/2017;theory;Gramáticas livres de contexto (GLCs)
+10/10/2017;theory;Derivação, ambiguidade e manipulação de GLCs
 12/10/2017;holiday;Feriado nacional: Nossa Senhora Aparecida
-17/10/2017;theory;Formas normais sobre GLC's
-19/10/2017;theory;LLC's: Lema do bombeamento e propriedades de fechamento
+17/10/2017;theory;Formas normais sobre GLCs
+19/10/2017;theory;LLCs: Lema do bombeamento e propriedades de fechamento
 24/10/2017;theory;Máquinas de Turing
 26/10/2017;exercise;Correção de exercícios
 31/10/2017;exam;Prova 2
 02/11/2017;holiday;Feriado nacional: Finados
 07/11/2017;theory;Propriedades de Máquinas de Turing
 09/11/2017;theory;Variações de máquinas de Turing: cabeçote imóvel, múltiplas trilhas e fita ilimitada em ambas as direções
-14/11/2017;theory;Variações de máquinas de Turing: múltiplas fitas e não determinística
-16/11/2017;theory;Decidibilidade: tese de Church-Turing, MT's e PD's, MT Universal
+14/11/2017;theory;Variações de máquinas de Turing: múltiplas fitas e não determinísticas
+16/11/2017;theory;Decidibilidade: tese de Church-Turing, MTs e PDs, MT Universal
 21/11/2017;theory;Decidibilidade: problema da parada, redução e teorema de Rice
 23/11/2017;exercise;Resolução de exercícios
 28/11/2017;exercise;Resolução de exercícios

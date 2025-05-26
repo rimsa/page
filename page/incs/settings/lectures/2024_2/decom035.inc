@@ -76,9 +76,9 @@ $lecture->calendar = <<<EOF
 21/11/2024;theory;LRs: lema do bombeamento e propriedades de fechamento
 26/11/2024;theory;Expressões regulares (ERs)
 28/11/2024;theory;Gramáticas regulares (GRs)
-03/12/2024;theory;Autômatos de pilha determinístico (APDs)
-05/12/2024;theory;Autômatos de pilha determinístico (APNs)
-10/12/2024;theory;Gramáticas livres de contexto (GLCs), derivaçoes, ambiguidade e manipulações
+03/12/2024;theory;Autômatos com pilha determinísticos (APDs)
+05/12/2024;theory;Autômatos com pilha determinísticos (APNs)
+10/12/2024;theory;Gramáticas livres de contexto (GLCs), derivações, ambiguidade e manipulações
 12/12/2024;theory;Forma normal de Chomsky
 17/12/2024;exercise;Resolução de exercícios
 19/12/2024;exam;Prova 2
@@ -92,7 +92,7 @@ $lecture->calendar = <<<EOF
 16/01/2025;theory;Propriedades de máquinas de Turing
 21/01/2025;theory;Variações de máquinas de Turing: cabeçote imóvel, múltiplas trilhas
 23/01/2025;theory;Variações de máquinas de Turing: fita ilimitada em ambas as direções, múltiplas fitas
-28/01/2025;theory;Variações de máquinas de Turing: não determinística
+28/01/2025;theory;Variações de máquinas de Turing: não determinísticas
 30/01/2025;theory;Decidibilidade: tese de Church-Turing, MTs e PDs, MT universal
 04/02/2025;theory;Decidibilidade: problema da parada, redução de um problema a outro e teorema de Rice
 06/02/2025;exercise;Resolução de exercícios
