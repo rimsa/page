@@ -74,27 +74,27 @@ $lecture->calendar = <<<EOF
 12/01/2021;theory;Conceitos preliminares: representações, provas de teoremas, conjuntos, relações, funções
 14/01/2021;theory;Conceitos preliminares: conjuntos enumeráveis, definições recursivas, indução, grafos
 19/01/2021;theory;Conceitos preliminares: linguagens formais, gramáticas, problemas de decisão
-21/01/2021;theory;Autômatos finitos determinísticos (AFD)
-26/01/2021;theory;Minimização de AFD's e propriedades de AFD's
-28/01/2021;theory;Propriedades de AFD's
-02/02/2021;theory;Autômatos finitos não determinísticos (AFN)
-04/02/2021;theory;Equivalência entre AFD's e AFN's, AFN estendido e AFN λ
+21/01/2021;theory;Autômatos finitos determinísticos (AFDs)
+26/01/2021;theory;Minimização de AFDs e propriedades de AFDs
+28/01/2021;theory;Propriedades de AFDs
+02/02/2021;theory;Autômatos finitos não determinísticos (AFNs)
+04/02/2021;theory;Equivalência entre AFDs e AFNs, AFN estendido e AFN λ
 09/02/2021;exercise;Resolução de exercícios
 11/02/2021;exam;Prova 1
 16/02/2021;holiday;Feriado nacional: Carnaval
-18/02/2021;theory;LR's: Lema do bombeamento e propriedades de fechamento
+18/02/2021;theory;LRs: Lema do bombeamento e propriedades de fechamento
 23/02/2021;theory;Expressões regulares e Gramáticas regulares
-25/02/2021;theory;Autômatos de pilha determinístico (APD) e não determinístico (APN)
-02/03/2021;theory;Gramáticas livres de contexto (GLC), derivação, ambiguidade e manipulação
-04/03/2021;theory;Formas normais sobre GLC's
+25/02/2021;theory;Autômatos com pilha determinísticos (APDs) e não determinísticos (APNs)
+02/03/2021;theory;Gramáticas livres de contexto (GLCs), derivação, ambiguidade e manipulação
+04/03/2021;theory;Formas normais sobre GLCs
 09/03/2021;holiday;Semana de estudos autônomos
 11/03/2021;holiday;Semana de estudos autônomos
 16/03/2021;exercise;Resolução de exercícios
 18/03/2021;exam;Prova 2
-23/03/2021;theory;LLC's: Lema do bombeamento e propriedades de fechamento
+23/03/2021;theory;LLCs: Lema do bombeamento e propriedades de fechamento
 25/03/2021;theory;Máquinas de Turing e Propriedades de MTs
 30/03/2021;theory;Variações de máquinas de Turing
-01/04/2021;theory;Decidibilidade: tese de Church-Turing, MT's e PD's, MT Universal, problema da parada, redução e teorema de Rice
+01/04/2021;theory;Decidibilidade: tese de Church-Turing, MTs e PDs, MT Universal, problema da parada, redução e teorema de Rice
 06/04/2021;exercise;Resolução de exercícios
 08/04/2021;exam;Prova 3
 13/04/2021;exam;Prova suplementar

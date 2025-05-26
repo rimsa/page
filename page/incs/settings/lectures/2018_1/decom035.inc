@@ -75,33 +75,33 @@ $lecture->calendar = <<<EOF
 06/03/2018;theory;Conceitos preliminares: relações, funções, conjuntos enumeráveis
 08/03/2018;theory;Conceitos preliminares: definições recursivas, indução, grafos
 13/03/2018;theory;Conceitos preliminares: linguagens formais, gramáticas, problemas de decisão
-15/03/2018;theory;Autômatos finitos determinísticos (AFD)
-20/03/2018;theory;Minimização de AFD's
-22/03/2018;theory;Propriedades de AFD's
-27/03/2018;theory;Autômatos finitos não determinísticos (AFN)
+15/03/2018;theory;Autômatos finitos determinísticos (AFDs)
+20/03/2018;theory;Minimização de AFDs
+22/03/2018;theory;Propriedades de AFDs
+27/03/2018;theory;Autômatos finitos não determinísticos (AFNs)
 29/03/2018;holiday;Recesso: Semana Santa
-03/04/2018;theory;Equivalência entre AFD's e AFN's, AFN estendido e AFN λ
+03/04/2018;theory;Equivalência entre AFDs e AFNs, AFN estendido e AFN λ
 05/04/2018;exercise;Resolução de exercícios
 10/04/2018;exam;Prova 1
-12/04/2018;theory;LR's: Lema do bombeamento e propriedades de fechamento
+12/04/2018;theory;LRs: Lema do bombeamento e propriedades de fechamento
 17/04/2018;theory;Expressões regulares
 19/04/2018;theory;Gramáticas regulares
-24/04/2018;theory;Autômatos de pilha determinístico (APD)
-26/04/2018;theory;Autômatos de pilha não determinístico (APN)
+24/04/2018;theory;Autômatos com pilha determinísticos (APDs)
+26/04/2018;theory;Autômatos com pilha não determinísticos (APN)
 01/05/2018;holiday;Feriado nacional: Dia do Trabalhador
-03/05/2018;theory;Gramáticas livres de contexto (GLC)
-08/05/2018;theory;Derivação, ambiguidade e manipulação de GLC’s
-10/05/2018;theory;Formas normais sobre GLC's
+03/05/2018;theory;Gramáticas livres de contexto (GLCs)
+08/05/2018;theory;Derivação, ambiguidade e manipulação de GLCs
+10/05/2018;theory;Formas normais sobre GLCs
 15/05/2018;exercise;Resolução de exercícios
 17/05/2018;exam;Prova 2
-22/05/2018;theory;LLC's: Lema do bombeamento e propriedades de fechamento
+22/05/2018;theory;LLCs: Lema do bombeamento e propriedades de fechamento
 24/05/2018;theory;Máquinas de Turing
 29/05/2018;holiday;Recesso: greve dos caminhoneiros
 31/05/2018;holiday;Feriado nacional: Corpus Christi
 05/06/2018;theory;Propriedades de Máquinas de Turing
 07/06/2018;theory;Variações de máquinas de Turing: cabeçote imóvel, múltiplas trilhas e fita ilimitada em ambas as direções
-12/06/2018;theory;Variações de máquinas de Turing: múltiplas fitas e não determinística
-14/06/2018;theory;Decidibilidade: tese de Church-Turing, MT's e PD's, MT Universal
+12/06/2018;theory;Variações de máquinas de Turing: múltiplas fitas e não determinísticas
+14/06/2018;theory;Decidibilidade: tese de Church-Turing, MTs e PDs, MT Universal
 19/06/2018;theory;Decidibilidade: problema da parada, redução e teorema de Rice
 21/06/2018;exercise;Resolução de exercícios
 26/06/2018;exam;Prova 3

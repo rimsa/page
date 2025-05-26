@@ -76,31 +76,31 @@ $lecture->calendar = <<<EOF
 14/03/2023;theory;Conceitos preliminares: definições recursivas, indução, grafos
 16/03/2023;theory;Conceitos preliminares: linguagens formais
 21/03/2023;theory;Conceitos preliminares: gramáticas, problemas de decisão
-23/03/2023;theory;Autômatos finitos determinísticos (AFD)
-28/03/2023;theory;Minimização de AFD's
-30/03/2023;theory;Propriedades de AFD's
-04/04/2023;theory;Autômatos finitos não determinísticos (AFN)
+23/03/2023;theory;Autômatos finitos determinísticos (AFDs)
+28/03/2023;theory;Minimização de AFDs
+30/03/2023;theory;Propriedades de AFDs
+04/04/2023;theory;Autômatos finitos não determinísticos (AFNs)
 06/04/2023;holiday;Recesso: Semana Santa
-11/04/2023;theory;Equivalência entre AFD's e AFN's, AFN estendido e AFN λ
+11/04/2023;theory;Equivalência entre AFDs e AFNs, AFN estendido e AFN λ
 13/04/2023;exercise;Resolução de exercícios
 18/04/2023;exam;Prova 1
-20/04/2023;theory;LR's: Lema do bombeamento e propriedades de fechamento
+20/04/2023;theory;LRs: Lema do bombeamento e propriedades de fechamento
 25/04/2023;theory;Expressões regulares
 27/04/2023;theory;Gramáticas regulares
-02/05/2023;theory;Autômatos de pilha determinístico (APD)
-04/05/2023;theory;Autômatos de pilha não determinístico (APN)
-09/05/2023;theory;Gramáticas livres de contexto (GLC)
-11/05/2023;theory;Derivação, ambiguidade e manipulação de GLC’s
-16/05/2023;theory;Formas normais sobre GLC's
+02/05/2023;theory;Autômatos com pilha determinísticos (APDs)
+04/05/2023;theory;Autômatos com pilha não determinísticos (APNs)
+09/05/2023;theory;Gramáticas livres de contexto (GLCs)
+11/05/2023;theory;Derivação, ambiguidade e manipulação de GLCs
+16/05/2023;theory;Formas normais sobre GLCs
 18/05/2023;exercise;Resolução de exercícios
 23/05/2023;exam;Prova 2
-25/05/2023;theory;LLC's: Lema do bombeamento e propriedades de fechamento
+25/05/2023;theory;LLCs: Lema do bombeamento e propriedades de fechamento
 30/05/2023;theory;Máquinas de Turing
 01/06/2023;theory;Propriedades de Máquinas de Turing
 06/06/2023;theory;Variações de máquinas de Turing: cabeçote imóvel, múltiplas trilhas, fita ilimitada em ambas as direções
 08/06/2023;holiday;Feriado nacional: Corpus Christi
-13/06/2023;theory;Variações de máquinas de Turing: múltiplas fitas, não determinística
-15/06/2023;theory;Decidibilidade: tese de Church-Turing, MT's e PD's, MT Universal
+13/06/2023;theory;Variações de máquinas de Turing: múltiplas fitas, não determinísticas
+15/06/2023;theory;Decidibilidade: tese de Church-Turing, MTs e PDs, MT Universal
 20/06/2023;theory;Decidibilidade: problema da parada, redução e teorema de Rice
 22/06/2023;exercise;Resolução de exercícios
 27/06/2023;exam;Prova 3

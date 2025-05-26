@@ -73,31 +73,31 @@ $lecture->calendar = <<<EOF
 24/03/2022;holiday;Semana de acolhimento
 29/03/2022;theory;Conceitos preliminares: representações, provas de teoremas, conjuntos, relações, funções, conjuntos enumeráveis
 31/03/2022;theory;Conceitos preliminares: definições recursivas, indução, grafos, linguagens formais, gramáticas, problemas de decisão
-05/04/2022;theory;Autômatos finitos determinísticos (AFD)
-07/04/2022;theory;Minimização de AFD's
-12/04/2022;theory;Propriedades de AFD's
+05/04/2022;theory;Autômatos finitos determinísticos (AFDs)
+07/04/2022;theory;Minimização de AFDs
+12/04/2022;theory;Propriedades de AFDs
 14/04/2022;holiday;Recesso escolar: Paixão de Cristo
-19/04/2022;theory;Autômatos finitos não determinísticos (AFN)
+19/04/2022;theory;Autômatos finitos não determinísticos (AFNs)
 21/04/2022;holiday;Feriado nacional: Tiradentes
-26/04/2022;theory;Equivalência entre AFD's e AFN's, AFN estendido e AFN λ
+26/04/2022;theory;Equivalência entre AFDs e AFNs, AFN estendido e AFN λ
 28/04/2022;exercise;Resolução de exercícios
 03/05/2022;exam;Prova 1
-05/05/2022;theory;LR's: Lema do bombeamento e propriedades de fechamento
+05/05/2022;theory;LRs: Lema do bombeamento e propriedades de fechamento
 10/05/2022;theory;Expressões regulares
 12/05/2022;theory;Gramáticas regulares
-17/05/2022;theory;Autômatos de pilha determinístico (APD)
-19/05/2022;theory;Autômatos de pilha não determinístico (APN)
-24/05/2022;theory;Gramáticas livres de contexto (GLC)
-26/05/2022;theory;Derivação, ambiguidade e manipulação de GLC’s
-31/05/2022;theory;Formas normais sobre GLC's
+17/05/2022;theory;Autômatos com pilha determinísticos (APDs)
+19/05/2022;theory;Autômatos com pilha não determinísticos (APNs)
+24/05/2022;theory;Gramáticas livres de contexto (GLCs)
+26/05/2022;theory;Derivação, ambiguidade e manipulação de GLCs
+31/05/2022;theory;Formas normais sobre GLCs
 02/06/2022;exercise;Resolução de exercícios
 07/06/2022;exam;Prova 2
-09/06/2022;theory;LLC's: Lema do bombeamento e propriedades de fechamento
+09/06/2022;theory;LLCs: Lema do bombeamento e propriedades de fechamento
 14/06/2022;theory;Máquinas de Turing e propriedades
 16/06/2022;holiday;Feriado nacional: Corpus Christi
 21/06/2022;theory;Variações de máquinas de Turing: cabeçote imóvel, múltiplas trilhas e fita ilimitada em ambas as direções
-23/06/2022;theory;Variações de máquinas de Turing: múltiplas fitas e não determinística
-28/06/2022;theory;Decidibilidade: tese de Church-Turing, MT's e PD's, MT Universal
+23/06/2022;theory;Variações de máquinas de Turing: múltiplas fitas e não determinísticas
+28/06/2022;theory;Decidibilidade: tese de Church-Turing, MTs e PDs, MT Universal
 30/06/2022;theory;Decidibilidade: problema da parada, redução e teorema de Rice
 05/07/2022;exercise;Resolução de exercícios
 07/07/2022;exam;Prova 3

@@ -68,28 +68,28 @@ $lecture->calendar = <<<EOF
 13/08/2015;holiday;Recesso escolar: Workshop da graduação
 18/08/2015;theory;Conceitos preliminares: representações, provas de teoremas, conjuntos, relações, funções, conjuntos enumeráveis
 20/08/2015;theory;Conceitos preliminares: definições recursivas, indução, grafos, linguagens formais, gramáticas, problemas de decisão
-25/08/2015;theory;Autômatos finitos determinísticos (AFD)
-27/08/2015;theory;Minimização e propriedades de AFD's
-01/09/2015;theory;Autômatos finitos não determinísticos (AFN)
-03/09/2015;theory;Equivalência entre AFD's e AFN's
-08/09/2015;theory;LR's: Lema do bombeamento e propriedades de fechamento
+25/08/2015;theory;Autômatos finitos determinísticos (AFDs)
+27/08/2015;theory;Minimização e propriedades de AFDs
+01/09/2015;theory;Autômatos finitos não determinísticos (AFNs)
+03/09/2015;theory;Equivalência entre AFDs e AFNs
+08/09/2015;theory;LRs: Lema do bombeamento e propriedades de fechamento
 10/09/2015;theory;Expressões regulares
 15/09/2015;exercise;Resolução de exercícios
 17/09/2015;exam;Primeira prova
 22/09/2015;exercise;Correção da prova
 24/09/2015;theory;Gramáticas regulares
-29/09/2015;theory;Autômatos de pilha determinístico (APD)
-01/10/2015;theory;Autômatos de pilha não determinístico (APN)
-06/10/2015;theory;Gramáticas livres de contexto (GLC)
-08/10/2015;theory;Manipulação de GLC's
+29/09/2015;theory;Autômatos com pilha determinísticos (APDs)
+01/10/2015;theory;Autômatos com pilha não determinísticos (APNs)
+06/10/2015;theory;Gramáticas livres de contexto (GLCs)
+08/10/2015;theory;Manipulação de GLCs
 13/10/2015;holiday;Recesso escolar: funcionário público
-15/10/2015;theory;Formas normais sobre GLC's (1/2)
-20/10/2015;theory;Formas normais sobre GLC's (2/2)
-22/10/2015;theory;LLC's: Lema do bombeamento
+15/10/2015;theory;Formas normais sobre GLCs (1/2)
+20/10/2015;theory;Formas normais sobre GLCs (2/2)
+22/10/2015;theory;LLCs: Lema do bombeamento
 27/10/2015;exercise;Resolução de exercícios
 29/10/2015;exam;Segunda prova
 03/11/2015;exercise;Correção da prova
-05/11/2015;theory;LLC's: Propriedades de fechamento
+05/11/2015;theory;LLCs: Propriedades de fechamento
 10/11/2015;theory;Máquinas de Turing
 12/11/2015;theory;Variações de máquinas de Turing
 17/11/2015;theory;Gramáticas e máquinas de Turing

@@ -76,23 +76,23 @@ $lecture->calendar = <<<EOF
 18/08/2022;theory;Conceitos preliminares: conjuntos enumeráveis, definições recursivas, indução, grafos
 23/08/2022;theory;Conceitos preliminares: linguagens formais
 25/08/2022;theory;Conceitos preliminares: gramáticas, problemas de decisão
-30/08/2022;theory;Autômatos finitos determinísticos (AFD)
-01/09/2022;theory;Minimização de AFD's
-06/09/2022;theory;Propriedades de AFD's
-08/09/2022;theory;Autômatos finitos não determinísticos (AFN)
-13/09/2022;theory;Equivalência entre AFD's e AFN's, AFN estendido e AFN λ
+30/08/2022;theory;Autômatos finitos determinísticos (AFDs)
+01/09/2022;theory;Minimização de AFDs
+06/09/2022;theory;Propriedades de AFDs
+08/09/2022;theory;Autômatos finitos não determinísticos (AFNs)
+13/09/2022;theory;Equivalência entre AFDs e AFNs, AFN estendido e AFN λ
 15/09/2022;exercise;Resolução de exercícios
 20/09/2022;exam;Prova 1
-22/09/2022;theory;LR's: Lema do bombeamento e propriedades de fechamento
+22/09/2022;theory;LRs: Lema do bombeamento e propriedades de fechamento
 27/09/2022;theory;Expressões regulares
 29/09/2022;theory;Gramáticas regulares
-04/10/2022;theory;Autômatos de pilha determinístico (APD)
-06/10/2022;theory;Autômatos de pilha não determinístico (APN)
-11/10/2022;theory;Gramáticas livres de contexto (GLC)
-13/10/2022;theory;Derivação, ambiguidade e manipulação de GLC’s
-18/10/2022;theory;Formas normais sobre GLC's
+04/10/2022;theory;Autômatos com pilha determinísticos (APDs)
+06/10/2022;theory;Autômatos com pilha não determinísticos (APNs)
+11/10/2022;theory;Gramáticas livres de contexto (GLCs)
+13/10/2022;theory;Derivação, ambiguidade e manipulação de GLCs
+18/10/2022;theory;Formas normais sobre GLCs
 20/10/2022;exercise;Resolução de exercícios
-25/10/2022;theory;LLC's: Lema do bombeamento e propriedades de fechamento
+25/10/2022;theory;LLCs: Lema do bombeamento e propriedades de fechamento
 27/10/2022;exam;Prova 2
 01/11/2022;theory;Máquinas de Turing
 03/11/2022;theory;Propriedades de Máquinas de Turing
@@ -100,8 +100,8 @@ $lecture->calendar = <<<EOF
 10/11/2022;theory;Variações de máquinas de Turing: fita ilimitada em ambas as direções
 15/11/2022;holiday;Feriado nacional: Proclamação da República
 17/11/2022;theory;Variações de máquinas de Turing: múltiplas fitas
-22/11/2022;theory;Variações de máquinas de Turing: não determinística
-24/11/2022;theory;Decidibilidade: tese de Church-Turing, MT's e PD's, MT Universal
+22/11/2022;theory;Variações de máquinas de Turing: não determinísticas
+24/11/2022;theory;Decidibilidade: tese de Church-Turing, MTs e PDs, MT Universal
 29/11/2022;theory;Decidibilidade: problema da parada, redução e teorema de Rice
 01/12/2022;exercise;Resolução de exercícios
 06/12/2022;exam;Prova 3
