@@ -44,10 +44,10 @@
           <img src="<?= $settings->basePage ?>/images/banner/bicame.jpg" alt="Cachoeiras do Bicame - Lapinha da Serra, MG/Brasil">
           <img src="<?= $settings->basePage ?>/images/banner/espinhaco.jpg" alt="Serra do Espinhaço - São João da Chapada, MG/Brasil">
           <img src="<?= $settings->basePage ?>/images/banner/tabuleiro.jpg" alt="Travessia Tabuleiro via Rota Norte - Tabuleiro, MG/Brasil">
-          <img src="<?= $settings->basePage ?>/images/banner/adršpach.jpg" alt="Adršpach Lake - Adršpach, Czech Republic">
-          <img src="<?= $settings->basePage ?>/images/banner/svatý-jan-pod-skalou.jpg" alt="Mountain View - Svatý Jan pod Skalou, Czech Republic">
-          <img src="<?= $settings->basePage ?>/images/banner/sněžka.jpg" alt="Krkonoše Mountain - Sněžka, Czech Republic">
-          <img src="<?= $settings->basePage ?>/images/banner/český-krumlov.jpg" alt="Castle - Český Krumlov, Czech Republic">
+          <img src="<?= $settings->basePage ?>/images/banner/adrspach.jpg" alt="Adršpach Lake - Adršpach, Czech Republic">
+          <img src="<?= $settings->basePage ?>/images/banner/svaty-jan-pod-skalou.jpg" alt="Mountain View - Svatý Jan pod Skalou, Czech Republic">
+          <img src="<?= $settings->basePage ?>/images/banner/snezka.jpg" alt="Krkonoše Mountain - Sněžka, Czech Republic">
+          <img src="<?= $settings->basePage ?>/images/banner/cesky-krumlov.jpg" alt="Castle - Český Krumlov, Czech Republic">
           <img src="<?= $settings->basePage ?>/images/banner/hallstatt.jpg" alt="Skywalk - Hallstatt, Austria">
           <img src="<?= $settings->basePage ?>/images/banner/stgilgen.jpg" alt="Wolfgangsee - St. Gilgen, Austria">
           <img src="<?= $settings->basePage ?>/images/banner/lakecomo.jpg" alt="Lago di Como - Como, Italia">
@@ -78,7 +78,7 @@
           <img src="<?= $settings->basePage ?>/images/banner/lasrocas.jpg" alt="Valle de las Rocas - Sur Lípez, Bolivia">
           <img src="<?= $settings->basePage ?>/images/banner/uyuni.jpg" alt="Salar de Uyuni - Uyuni, Bolivia">
           <img src="<?= $settings->basePage ?>/images/banner/grey.jpg" alt="Glaciar Grey - Torres del Paine, Chile">
-          <img src="<?= $settings->basePage ?>/images/banner/nordenskjöld.jpg" alt="Lago Nordenskjöld - Torres del Paine, Chile">
+          <img src="<?= $settings->basePage ?>/images/banner/nordenskjold.jpg" alt="Lago Nordenskjöld - Torres del Paine, Chile">
           <img src="<?= $settings->basePage ?>/images/banner/peritomoreno.jpg" alt="Glaciar Perito Moreno - El Calafate, Argentina">
           <img src="<?= $settings->basePage ?>/images/banner/losdedos.jpg" alt="Los Dedos - Punta del Este, Uruguay">
           <img src="<?= $settings->basePage ?>/images/banner/johnston.jpg" alt="Johnston Canyon - Banff, Canada">
