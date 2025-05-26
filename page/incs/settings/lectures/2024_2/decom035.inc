@@ -76,9 +76,9 @@ $lecture->calendar = <<<EOF
 21/11/2024;theory;LRs: lema do bombeamento e propriedades de fechamento
 26/11/2024;theory;Expressões regulares (ERs)
 28/11/2024;theory;Gramáticas regulares (GRs)
-03/12/2024;theory;Autômatos de pilha determinístico (APDs)
-05/12/2024;theory;Autômatos de pilha determinístico (APNs)
-10/12/2024;theory;Gramáticas livres de contexto (GLCs), derivaçoes, ambiguidade e manipulações
+03/12/2024;theory;Autômatos com pilha determinístico (APD)
+05/12/2024;theory;Autômatos com pilha determinístico (APN)
+10/12/2024;theory;Gramáticas livres de contexto (GLCs), derivações, ambiguidade e manipulações
 12/12/2024;theory;Forma normal de Chomsky
 17/12/2024;exercise;Resolução de exercícios
 19/12/2024;exam;Prova 2
