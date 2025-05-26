@@ -37,7 +37,7 @@ Conceitos básicos das linguagens formais
 Linguagens regulares: livres de contexto, sensíveis ao contexto e irrestritas
 Introdução ao parsing
 Autômatos finitos e expressões regulares
-Autômatos de pilha
+Autômatos com pilha
 Máquinas de Turing
 Hierarquia das classes de linguagens
 EOF;
@@ -46,16 +46,16 @@ EOF;
 Apresentação da disciplina;Aula00.pdf;https://youtu.be/7R-jWWfpPZA;
 Conceitos preliminares;Aula01.pdf;https://youtu.be/DHOy_tL4OQs;Lista01.pdf
 Autômatos finitos determinísticos (AFD);Aula02.pdf;https://youtu.be/IZYtWVa8YgU;Lista02.pdf
-Minimização de AFD's;Aula03.pdf;https://youtu.be/tKwSPsNimVo;Lista03.pdf
-Propriedades de AFD's;Aula04.pdf;https://youtu.be/6ghUtVz_aFw;Lista04.pdf
+Minimização de AFDs;Aula03.pdf;https://youtu.be/tKwSPsNimVo;Lista03.pdf
+Propriedades de AFDs;Aula04.pdf;https://youtu.be/6ghUtVz_aFw;Lista04.pdf
 Autômatos finitos não determinísticos (AFN);Aula05.pdf;https://youtu.be/F9okx1usyAQ;Lista05.pdf
-LR's: Lema do bombeamento e propriedades de fechamento;Aula06.pdf;https://youtu.be/g52qVHYX1So;Lista06.pdf
+LRs: Lema do bombeamento e propriedades de fechamento;Aula06.pdf;https://youtu.be/g52qVHYX1So;Lista06.pdf
 Expressões regulares;Aula07.pdf;https://youtu.be/R4mhyqOVGOg;Lista07.pdf
 Gramáticas regulares;Aula08.pdf;https://youtu.be/dYiWaDpYFZI;Lista08.pdf
-Autômatos de pilha (AP);Aula09.pdf;https://youtu.be/tlIKigSR95Q;Lista09.pdf
+Autômatos com pilha (AP);Aula09.pdf;https://youtu.be/tlIKigSR95Q;Lista09.pdf
 Gramática livre de contexto (GLC);Aula10.pdf;https://youtu.be/qZe15JSneeM;Lista10.pdf
-Formas Normais sobre GLC's;Aula11.pdf;https://youtu.be/nYuExv2HKdI;Lista11.pdf
-LLC's: Lema do bombeamento e propriedades de fechamento;Aula12.pdf;https://youtu.be/SWQKPT_xRjc;Lista12.pdf
+Formas Normais sobre GLCs;Aula11.pdf;https://youtu.be/nYuExv2HKdI;Lista11.pdf
+LLCs: Lema do bombeamento e propriedades de fechamento;Aula12.pdf;https://youtu.be/SWQKPT_xRjc;Lista12.pdf
 Máquinas de Turing (MT);Aula13.pdf;https://youtu.be/epMZRcSGlpQ;Lista13.pdf
 Variações de máquinas de Turing;Aula14.pdf;https://youtu.be/EWNlQBFVLMw;Lista14.pdf
 Decidibilidade;Aula15.pdf;https://youtu.be/gKYMBZ9aZIk;Lista15.pdf
@@ -72,9 +72,9 @@ Linguagens formais
 Expressões regulares
 Linguagens regulares
 Autômatos finitos determinísticos
-Autômatos finitos não determinístico
+Autômatos finitos não determinísticos
 Gramáticas livres de contexto
-Autômatos de pilha
+Autômatos com pilha
 Linguagens recursivas
 Máquinas de Turing
 Decidibilidade
@@ -88,7 +88,7 @@ Autômatos finitos não determinísticos (AFNs);Aula03.pdf;https://youtu.be/F9ok
 LRs: Lema do bombeamento e propriedades de fechamento;Aula04.pdf;https://youtu.be/g52qVHYX1So;Lista04.pdf
 Expressões regulares (ERs);Aula05.pdf;https://youtu.be/R4mhyqOVGOg;Lista05.pdf
 Gramáticas regulares (GRs);Aula06.pdf;https://youtu.be/dYiWaDpYFZI;Lista06.pdf
-Autômatos de pilha (APs);Aula07.pdf;https://youtu.be/tlIKigSR95Q;Lista07.pdf
+Autômatos com pilha (APs);Aula07.pdf;https://youtu.be/tlIKigSR95Q;Lista07.pdf
 Gramáticas livres de contexto (GLCs);Aula08.pdf;https://youtu.be/qZe15JSneeM;Lista08.pdf
 Formas Normais sobre GLCs;Aula09.pdf;https://youtu.be/nYuExv2HKdI;Lista09.pdf
 LLCs: Lema do bombeamento e propriedades de fechamento;Aula10.pdf;https://youtu.be/SWQKPT_xRjc;Lista10.pdf

@@ -76,29 +76,29 @@ $lecture->calendar = <<<EOF
 27/05/2021;theory;Conceitos preliminares: definições recursivas, indução, grafos
 01/06/2021;theory;Conceitos preliminares: linguagens formais, gramáticas, problemas de decisão
 03/06/2021;holiday;Feriado nacional: Corpus Christi
-08/06/2021;theory;Autômatos finitos determinísticos (AFD)
-10/06/2021;theory;Minimização de AFD's
-15/06/2021;theory;Propriedades de AFD's
-17/06/2021;theory;Autômatos finitos não determinísticos (AFN)
-22/06/2021;theory;Equivalência entre AFD's e AFN's, AFN estendido e AFN λ
+08/06/2021;theory;Autômatos finitos determinísticos (AFDs)
+10/06/2021;theory;Minimização de AFDs
+15/06/2021;theory;Propriedades de AFDs
+17/06/2021;theory;Autômatos finitos não determinísticos (AFNs)
+22/06/2021;theory;Equivalência entre AFDs e AFNs, AFN estendido e AFN λ
 24/06/2021;exercise;Resolução de exercícios
 29/06/2021;exam;Prova 1
-01/07/2021;theory;LR's: Lema do bombeamento e propriedades de fechamento
+01/07/2021;theory;LRs: Lema do bombeamento e propriedades de fechamento
 06/07/2021;theory;Expressões regulares
 08/07/2021;theory;Gramáticas regulares
-13/07/2021;theory;Autômatos de pilha determinístico (APD) e não determinístico (APN)
-15/07/2021;theory;Gramáticas livres de contexto (GLC)
-20/07/2021;theory;Derivação, ambiguidade e manipulação de GLC’s
-22/07/2021;theory;Formas normais sobre GLC's
-27/07/2021;theory;LLC's: Lema do bombeamento e propriedades de fechamento
+13/07/2021;theory;Autômatos com pilha determinísticos (APDs) e não determinísticos (APNs)
+15/07/2021;theory;Gramáticas livres de contexto (GLCs)
+20/07/2021;theory;Derivação, ambiguidade e manipulação de GLCs
+22/07/2021;theory;Formas normais sobre GLCs
+27/07/2021;theory;LLCs: Lema do bombeamento e propriedades de fechamento
 29/07/2021;exercise;Resolução de exercícios
 03/08/2021;exam;Prova 2
 05/08/2021;theory;Máquinas de Turing e propriedades
 10/08/2021;theory;Variações de máquinas de Turing: cabeçote imóvel, múltiplas trilhas e fita ilimitada em ambas as direções
-12/08/2021;theory;Variações de máquinas de Turing: múltiplas fitas e não determinística
+12/08/2021;theory;Variações de máquinas de Turing: múltiplas fitas e não determinísticas
 17/08/2021;holiday;Semana de estudos autônomos
 19/08/2021;holiday;Semana de estudos autônomos
-24/08/2021;theory;Decidibilidade: tese de Church-Turing, MT's e PD's, MT Universal
+24/08/2021;theory;Decidibilidade: tese de Church-Turing, MTs e PDs, MT Universal
 26/08/2021;theory;Decidibilidade: problema da parada, redução e teorema de Rice
 31/08/2021;exercise;Resolução de exercícios
 02/09/2021;exam;Prova 3

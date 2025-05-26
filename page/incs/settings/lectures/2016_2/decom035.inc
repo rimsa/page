@@ -86,31 +86,31 @@ $lecture->calendar = <<<EOF
 04/08/2016;theory;Conceitos preliminares: representações, provas de teoremas, conjuntos, relações
 09/08/2016;theory;Conceitos preliminares: funções, conjuntos enumeráveis, definições recursivas, indução
 11/08/2016;theory;Conceitos preliminares: grafos, linguagens formais, gramáticas, problemas de decisão
-16/08/2016;theory;Autômatos finitos determinísticos (AFD)
-18/08/2016;theory;Minimização de AFD's
-23/08/2016;theory;Propriedades de AFD's
-25/08/2016;theory;Autômatos finitos não determinísticos (AFN)
-30/08/2016;theory;Equivalência entre AFD's e AFN's
+16/08/2016;theory;Autômatos finitos determinísticos (AFDs)
+18/08/2016;theory;Minimização de AFDs
+23/08/2016;theory;Propriedades de AFDs
+25/08/2016;theory;Autômatos finitos não determinísticos (AFNs)
+30/08/2016;theory;Equivalência entre AFDs e AFNs
 01/09/2016;theory;AFN estendido e AFN λ
 06/09/2016;exercise;Resolução de exercícios
 08/09/2016;exam;Primeira prova
 13/09/2016;exercise;Correção da prova
-15/09/2016;theory;LR's: Lema do bombeamento e propriedades de fechamento
+15/09/2016;theory;LRs: Lema do bombeamento e propriedades de fechamento
 20/09/2016;theory;Expressões regulares
 22/09/2016;theory;Gramáticas regulares
-27/09/2016;theory;Autômatos de pilha determinístico (APD)
-29/09/2016;theory;Autômatos de pilha não determinístico (APN)
-04/10/2016;theory;Gramáticas livres de contexto (GLC)
-06/10/2016;theory;Manipulação de GLC's
+27/09/2016;theory;Autômatos com pilha determinísticos (APDs)
+29/09/2016;theory;Autômatos com pilha não determinísticos (APNs)
+04/10/2016;theory;Gramáticas livres de contexto (GLCs)
+06/10/2016;theory;Manipulação de GLCs
 11/10/2016;holiday;Recesso escolar: Nossa Senhora Aparecida
-13/10/2016;theory;Formas normais sobre GLC's
+13/10/2016;theory;Formas normais sobre GLCs
 18/10/2016;exercise;Resolução de exercícios
 20/10/2016;exam;Segunda prova
 25/10/2016;exercise;Correção da prova
-27/10/2016;theory;LLC's: Lema do bombeamento e propriedades de fechamento
+27/10/2016;theory;LLCs: Lema do bombeamento e propriedades de fechamento
 01/11/2016;theory;Máquinas de Turing
 03/11/2016;theory;Variações de máquinas de Turing
-08/11/2016;theory;Decidibilidade: tese de Church-Turing, MT's e PD's, MT Universal
+08/11/2016;theory;Decidibilidade: tese de Church-Turing, MTs e PDs, MT Universal
 10/11/2016;theory;Decidibilidade: problema da parada, redução e teorema de Rice
 15/11/2016;holiday;Feriado nacional: Proclamação da República
 17/11/2016;exercise;Resolução de exercícios

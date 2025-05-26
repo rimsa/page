@@ -79,7 +79,7 @@ thu;14:50-18:20
 EOF;
 
 $lecture->homeworks = <<<EOF
-TP.pdf;;29/05;entrada.zip;Gerador;Implementar um programa que recebe dois Autômatos Finito Determinístico (AFD's), que podem ser incompletos, e gerar dois outros AFD's que representem a interseção e a união deles.
+TP.pdf;;29/05;entrada.zip;Gerador;Implementar um programa que recebe dois Autômatos Finito Determinísticos (AFDs), que podem ser incompletos, e gerar dois outros AFDs que representem a interseção e a união deles.
 EOF;
 
 $lecture->calendar = <<<EOF
@@ -87,33 +87,33 @@ $lecture->calendar = <<<EOF
 25/02/2016;theory;Conceitos preliminares: representações, provas de teoremas, conjuntos, relações
 01/03/2016;theory;Conceitos preliminares: funções, conjuntos enumeráveis, definições recursivas, indução
 03/03/2016;theory;Conceitos preliminares: grafos, linguagens formais, gramáticas, problemas de decisão
-08/03/2016;theory;Autômatos finitos determinísticos (AFD)
-10/03/2016;theory;Minimização de AFD's
-15/03/2016;theory;Propriedades de AFD's
-17/03/2016;theory;Autômatos finitos não determinísticos (AFN)
-22/03/2016;theory;Equivalência entre AFD's e AFN's
+08/03/2016;theory;Autômatos finitos determinísticos (AFDs)
+10/03/2016;theory;Minimização de AFDs
+15/03/2016;theory;Propriedades de AFDs
+17/03/2016;theory;Autômatos finitos não determinísticos (AFNs)
+22/03/2016;theory;Equivalência entre AFDs e AFNs
 24/03/2016;holiday;Recesso escolar: Paixão de Cristo
 29/03/2016;theory;AFN estendido e AFN λ
 31/03/2016;exercise;Resolução de exercícios
 05/04/2016;exam;Primeira prova
 07/04/2016;exercise;Correção da prova
-12/04/2016;theory;LR's: Lema do bombeamento e propriedades de fechamento
+12/04/2016;theory;LRs: Lema do bombeamento e propriedades de fechamento
 14/04/2016;theory;Expressões regulares
 19/04/2016;theory;Gramáticas regulares
 21/04/2016;holiday;Feriado nacional: Tiradentes
-26/04/2016;theory;Autômatos de pilha determinístico (APD)
-28/04/2016;theory;Autômatos de pilha não determinístico (APN)
-03/05/2016;theory;Gramáticas livres de contexto (GLC)
-05/05/2016;theory;Manipulação de GLC's
-10/05/2016;theory;Formas normais sobre GLC's
+26/04/2016;theory;Autômatos com pilha determinísticos (APDs)
+28/04/2016;theory;Autômatos com pilha não determinísticos (APNs)
+03/05/2016;theory;Gramáticas livres de contexto (GLCs)
+05/05/2016;theory;Manipulação de GLCs
+10/05/2016;theory;Formas normais sobre GLCs
 12/05/2016;exercise;Resolução de exercícios
 17/05/2016;exam;Segunda prova
 19/05/2016;exercise;Correção da prova
-24/05/2016;theory;LLC's: Lema do bombeamento e propriedades de fechamento
+24/05/2016;theory;LLCs: Lema do bombeamento e propriedades de fechamento
 26/05/2016;holiday;Feriado nacional: Corpus Christi
 31/05/2016;theory;Máquinas de Turing
 02/06/2016;theory;Variações de máquinas de Turing
-07/06/2016;theory;Decidibilidade: tese de Church-Turing, MT's e PD's, MT Universal 
+07/06/2016;theory;Decidibilidade: tese de Church-Turing, MTs e PDs, MT Universal 
 09/06/2016;theory;Decidibilidade: problema da parada, redução e teorema de Rice
 14/06/2016;exercise;Resolução de exercícios
 16/06/2016;exam;Terceira prova

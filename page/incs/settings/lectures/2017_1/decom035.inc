@@ -89,32 +89,32 @@ $lecture->calendar = <<<EOF
 02/03/2017;theory;Conceitos preliminares: relações, funções, conjuntos enumeráveis
 07/03/2017;theory;Conceitos preliminares: definições recursivas, indução, grafos
 09/03/2017;theory;Conceitos preliminares: linguagens formais, gramáticas, problemas de decisão
-14/03/2017;theory;Autômatos finitos determinísticos (AFD)
-16/03/2017;theory;Minimização de AFD's
-21/03/2017;theory;Propriedades de AFD's
-23/03/2017;theory;Autômatos finitos não determinísticos (AFN)
-28/03/2017;theory;Equivalência entre AFD's e AFN's
+14/03/2017;theory;Autômatos finitos determinísticos (AFDs)
+16/03/2017;theory;Minimização de AFDs
+21/03/2017;theory;Propriedades de AFDs
+23/03/2017;theory;Autômatos finitos não determinísticos (AFNs)
+28/03/2017;theory;Equivalência entre AFDs e AFNs
 30/03/2017;theory;AFN estendido e AFN λ
 04/04/2017;exercise;Correção de exercícios
 06/04/2017;exam;Prova 1
-11/04/2017;theory;LR's: Lema do bombeamento e propriedades de fechamento
+11/04/2017;theory;LRs: Lema do bombeamento e propriedades de fechamento
 13/04/2017;holiday;Recesso: Quinta-feira santa
 18/04/2017;theory;Expressões regulares
 20/04/2017;theory;Gramáticas regulares
-25/04/2017;theory;Autômatos de pilha determinístico (APD)
-27/04/2017;theory;Autômatos de pilha não determinístico (APN)
-02/05/2017;theory;Gramáticas livres de contexto (GLC)
-04/05/2017;theory;Derivação e ambiguidade de GLC’s
-09/05/2017;theory;Manipulação de GLC's
-11/05/2017;theory;Formas normais sobre GLC's
+25/04/2017;theory;Autômatos com pilha determinísticos (APDs)
+27/04/2017;theory;Autômatos com pilha não determinísticos (APNs)
+02/05/2017;theory;Gramáticas livres de contexto (GLCs)
+04/05/2017;theory;Derivação e ambiguidade de GLCs
+09/05/2017;theory;Manipulação de GLCs
+11/05/2017;theory;Formas normais sobre GLCs
 16/05/2017;exercise;Correção de exercícios
 18/05/2017;exam;Prova 2
-23/05/2017;theory;LLC's: Lema do bombeamento e propriedades de fechamento
+23/05/2017;theory;LLCs: Lema do bombeamento e propriedades de fechamento
 25/05/2017;theory;Máquinas de Turing
 30/05/2017;theory;Propriedades de Máquinas de Turing
 01/06/2017;theory;Variações de máquinas de Turing: cabeçote imóvel, múltiplas trilhas e fita ilimitada em ambas as direções
-06/06/2017;theory;Variações de máquinas de Turing: múltiplas fitas e não determinística
-08/06/2017;theory;Decidibilidade: tese de Church-Turing, MT's e PD's, MT Universal
+06/06/2017;theory;Variações de máquinas de Turing: múltiplas fitas e não determinísticas
+08/06/2017;theory;Decidibilidade: tese de Church-Turing, MTs e PDs, MT Universal
 13/06/2017;theory;Decidibilidade: problema da parada, redução e teorema de Rice
 15/06/2017;holiday;Feriado nacional: Corpus Christi
 20/06/2017;exercise;Resolução de exercícios

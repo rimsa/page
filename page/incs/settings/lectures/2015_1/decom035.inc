@@ -67,31 +67,31 @@ $lecture->calendar = <<<EOF
 10/03/2015;theory;Apresentação da disciplina
 12/03/2015;theory;Conceitos preliminares: representações, provas de teoremas, conjuntos, relações, funções, conjuntos enumeráveis
 17/03/2015;theory;Conceitos preliminares: definições recursivas, indução, grafos, linguagens formais, gramáticas, problemas de decisão
-19/03/2015;theory;Autômatos finitos determinísticos (AFD)
-24/03/2015;theory;Minimização de AFD's
-26/03/2015;theory;Propriedades de AFD's
-31/03/2015;theory;Autômatos finitos não determinísticos (AFN)
+19/03/2015;theory;Autômatos finitos determinísticos (AFDs)
+24/03/2015;theory;Minimização de AFDs
+26/03/2015;theory;Propriedades de AFDs
+31/03/2015;theory;Autômatos finitos não determinísticos (AFNs)
 02/04/2015;holiday;Recesso escolar: Paixão de Cristo
-07/04/2015;theory;Equivalência entre AFD's e AFN's
+07/04/2015;theory;Equivalência entre AFDs e AFNs
 09/04/2015;exercise;Resolução de exercícios
 14/04/2015;exam;Primeira prova
 16/04/2015;exercise;Correção da prova
 21/03/2015;holiday;Feriado nacional: Tiradentes
-23/04/2015;theory;LR's: Lema do bombeamento e propriedades de fechamento
+23/04/2015;theory;LRs: Lema do bombeamento e propriedades de fechamento
 28/04/2015;theory;Expressões regulares
 30/04/2015;theory;Gramáticas regulares
-05/05/2015;theory;Autômatos de pilha determinístico (APD)
-07/05/2015;theory;Autômatos de pilha não determinístico (APN)
-12/05/2015;theory;Gramáticas livres de contexto (GLC)
-14/05/2015;theory;Manipulação de GLC's
-19/05/2015;theory;Formas normais sobre GLC's
+05/05/2015;theory;Autômatos com pilha determinísticos (APDs)
+07/05/2015;theory;Autômatos com pilha não determinísticos (APNs)
+12/05/2015;theory;Gramáticas livres de contexto (GLCs)
+14/05/2015;theory;Manipulação de GLCs
+19/05/2015;theory;Formas normais sobre GLCs
 21/05/2015;exercise;Resolução de exercícios
 26/05/2015;exam;Segunda prova
 28/05/2015;exercise;Correção da prova
-02/06/2015;theory;Equivalência entre GLC's e autômatos de pilha
+02/06/2015;theory;Equivalência entre GLCs e autômatos com pilha
 04/06/2015;holiday;Feriado nacional: Corpus Christi
-09/06/2015;theory;LLC's: Lema do bombeamento
-11/06/2015;theory;LLC's: Propriedades de fechamento
+09/06/2015;theory;LLCs: Lema do bombeamento
+11/06/2015;theory;LLCs: Propriedades de fechamento
 16/06/2015;theory;Máquinas de Turing
 18/06/2015;theory;Variações de máquinas de Turing
 23/06/2015;theory;Gramáticas e máquinas de Turing
