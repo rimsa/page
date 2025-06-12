@@ -6,7 +6,7 @@
 	<ul>
       <li><b><?= $settings->translation->classes['course'] ?>: </b><?= $lecture->name ?></li>
       <li><b><?= $settings->translation->classes['code'] ?>: </b><?= $lecture->code ?></li>
-      <li><b><?= $settings->translation->classes['departament'] ?>: </b><?= $lecture->departament ?></li>
+      <li><b><?= $settings->translation->classes['department'] ?>: </b><?= $lecture->department ?></li>
       <li><b><?= $settings->translation->classes['dlist'] ?>: </b><a href="https://groups.google.com/d/forum/<?= $lecture->dlist ?>" target="_blank"><?= $lecture->dlist ?>@googlegroups.com</a></li>
       <li><b><?= $settings->translation->classes['term'] ?>: </b>
         <select id="termsel">
