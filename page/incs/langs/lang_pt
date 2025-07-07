@@ -13,7 +13,7 @@ decom042="decom042"
 
 [profile]
 title="Perfil"
-description="Meu nome é Andrei Rimsa Álvares. Eu sou professor assistente no <a href=\"http://decom.cefetmg.br\" target=\"_blank\">Departamento de Computação (DECOM)</a> no <a href=\"http://cefetmg.br\" target=\"_blank\">Centro Federal de Educação Tecnológica de Minas Gerais (CEFET-MG)</a>. Sou doutor pela <a href=\"http://ufmg.br\" target=\"_blank\">Universidade Federal de Minas Gerais (UFMG)</a> sob a orientação do professor <a href=\"http://dcc.ufmg.br/~fernando\" target=\"_blank\">Fernando Pereira</a>."
+description="Meu nome é Andrei Rimsa Álvares. Eu sou professor adjunto no <a href=\"http://decom.cefetmg.br\" target=\"_blank\">Departamento de Computação (DECOM)</a> no <a href=\"http://cefetmg.br\" target=\"_blank\">Centro Federal de Educação Tecnológica de Minas Gerais (CEFET-MG)</a>. Sou doutor pela <a href=\"http://ufmg.br\" target=\"_blank\">Universidade Federal de Minas Gerais (UFMG)</a> sob a orientação do professor <a href=\"http://dcc.ufmg.br/~fernando\" target=\"_blank\">Fernando Pereira</a>."
 interests[label]="Interesses de pesquisa"
 interests[topics]="linguagens de programação, compiladores, análise de código, segurança de software, análise de binários"
 
