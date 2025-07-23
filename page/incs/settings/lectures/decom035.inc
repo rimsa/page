@@ -87,15 +87,14 @@ Conceitos preliminares;Aula01.pdf;https://youtu.be/DHOy_tL4OQs;Lista01.pdf
 Autômatos finitos determinísticos (AFDs);Aula02.pdf;https://youtube.com/playlist?list=PLzoHPr9z_QGbppPdZ1M6h1VW25KAyJ4WO;Lista02.pdf
 Autômatos finitos não determinísticos (AFNs);Aula03.pdf;https://youtu.be/F9okx1usyAQ;Lista03.pdf
 LRs: Lema do bombeamento e propriedades de fechamento;Aula04.pdf;https://youtu.be/g52qVHYX1So;Lista04.pdf
-Expressões regulares (ERs);Aula05.pdf;https://youtu.be/R4mhyqOVGOg;Lista05.pdf
-Gramáticas regulares (GRs);Aula06.pdf;https://youtu.be/dYiWaDpYFZI;Lista06.pdf
-Autômatos com pilha (APs);Aula07.pdf;https://youtu.be/tlIKigSR95Q;Lista07.pdf
-Gramáticas livres de contexto (GLCs);Aula08.pdf;https://youtu.be/qZe15JSneeM;Lista08.pdf
-Formas Normais sobre GLCs;Aula09.pdf;https://youtu.be/nYuExv2HKdI;Lista09.pdf
-LLCs: Lema do bombeamento e propriedades de fechamento;Aula10.pdf;https://youtu.be/SWQKPT_xRjc;Lista10.pdf
-Máquinas de Turing (MT);Aula11.pdf;https://youtu.be/epMZRcSGlpQ;Lista11.pdf
-Variações de máquinas de Turing;Aula12.pdf;https://youtu.be/EWNlQBFVLMw;Lista12.pdf
-Decidibilidade;Aula13.pdf;https://youtu.be/gKYMBZ9aZIk;Lista13.pdf
+Gramáticas e expressões regulares (GRs e ERs);Aula05.pdf;https://youtube.com/playlist?list=PLzoHPr9z_QGbl1LjB0PeZ0W4ywAEXXUhi;Lista05.pdf
+Autômatos com pilha (APs);Aula06.pdf;https://youtu.be/tlIKigSR95Q;Lista06.pdf
+Gramáticas livres de contexto (GLCs);Aula07.pdf;https://youtu.be/qZe15JSneeM;Lista07.pdf
+Formas Normais sobre GLCs;Aula08.pdf;https://youtu.be/nYuExv2HKdI;Lista08.pdf
+LLCs: Lema do bombeamento e propriedades de fechamento;Aula09.pdf;https://youtu.be/SWQKPT_xRjc;Lista09.pdf
+Máquinas de Turing (MT);Aula10.pdf;https://youtu.be/epMZRcSGlpQ;Lista10.pdf
+Variações de máquinas de Turing;Aula11.pdf;https://youtu.be/EWNlQBFVLMw;Lista11.pdf
+Decidibilidade;Aula12.pdf;https://youtu.be/gKYMBZ9aZIk;Lista12.pdf
 EOF;
 
 		break;

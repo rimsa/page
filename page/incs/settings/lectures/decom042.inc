@@ -75,10 +75,11 @@ Processos;Aula04.pdf;https://youtu.be/ICYGoYe32xA;Lista04.pdf
 Entradas, saídas e redirecionamentos;Aula05.pdf;https://youtu.be/TC-blLUQyxI;Lista05.pdf
 Expansões;Aula06.pdf;https://youtu.be/3A3TBgyMcGM;Lista06.pdf
 Parâmetros e variáveis;Aula07.pdf;https://youtu.be/l3O2wI7NoOs;Lista07.pdf
-Estruturas de fluxo condicionais e de repetição;Aula08.pdf;https://youtube.com/playlist?list=PLzoHPr9z_QGYCxtwEuK_9661aibCyPcT_;Lista08.pdf
-Expressões regulares;Aula09.pdf;https://youtu.be/BDsj5uvxLHg;Lista09.pdf
-sed;Aula10.pdf;https://youtu.be/VDEbKGnoNpA;Lista10.pdf
-AWK;Aula11.pdf;https://youtu.be/RvwgPSG6LMc;Lista11.pdf
+Estruturas de fluxo condicionais;Aula08.pdf;https://youtu.be/i9-A5ncj4Sc;Lista08.pdf
+Estruturas de repetição;Aula09.pdf;https://youtu.be/1iun6uCfMoE;Lista09.pdf
+Expressões regulares;Aula10.pdf;https://youtu.be/BDsj5uvxLHg;Lista10.pdf
+sed;Aula11.pdf;https://youtu.be/VDEbKGnoNpA;Lista11.pdf
+AWK;Aula12.pdf;https://youtu.be/RvwgPSG6LMc;Lista12.pdf
 EOF;
 
 $file = $settings->basePath . '/incs/settings/lectures/' . $lecture->term . '/' . $settings->lecture . '.inc';
