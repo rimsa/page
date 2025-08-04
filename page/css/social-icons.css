@@ -365,13 +365,13 @@
 	background-color: #E2D6C6;
 }
 
-.social-ebay {
+.social-researchgate {
 	background-position: -320px -240px;
 }
 
-.social-ebay:hover {
+.social-researchgate:hover {
 	background-position: -320px -280px;
-	background-color: #FE0000;
+	background-color: #04d4ac;
 }
 
 .social-googleplus {
