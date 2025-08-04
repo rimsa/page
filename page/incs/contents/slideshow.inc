@@ -43,7 +43,7 @@
           <img src="<?= $settings->basePage ?>/images/banner/setequedas.jpg" alt="Cachoeiras das 7 quedas - Lapinha da Serra, MG/Brasil">
           <img src="<?= $settings->basePage ?>/images/banner/bicame.jpg" alt="Cachoeiras do Bicame - Lapinha da Serra, MG/Brasil">
           <img src="<?= $settings->basePage ?>/images/banner/espinhaco.jpg" alt="Serra do Espinhaço - São João da Chapada, MG/Brasil">
-          <img src="<?= $settings->basePage ?>/images/banner/tabuleiro.jpg" alt="Travessia Tabuleiro via Rota Norte - Tabuleiro, MG/Brasil">
+          <img src="<?= $settings->basePage ?>/images/banner/tabuleiro1.jpg" alt="Travessia Tabuleiro via Rota Norte - Tabuleiro, MG/Brasil">
           <img src="<?= $settings->basePage ?>/images/banner/adrspach.jpg" alt="Adršpach Lake - Adršpach, Czech Republic">
           <img src="<?= $settings->basePage ?>/images/banner/svaty-jan-pod-skalou.jpg" alt="Mountain View - Svatý Jan pod Skalou, Czech Republic">
           <img src="<?= $settings->basePage ?>/images/banner/snezka.jpg" alt="Krkonoše Mountain - Sněžka, Czech Republic">
@@ -118,6 +118,17 @@
           <img src="<?= $settings->basePage ?>/images/banner/lavadeiras.jpg" alt="Cachoeira das Lavadeiras (Parte alta) - Curimataí, MG/Brasil">
           <img src="<?= $settings->basePage ?>/images/banner/santarita.jpg" alt="Cachoeira de Santa Rita - Curimataí, MG/Brasil">
           <img src="<?= $settings->basePage ?>/images/banner/maquine.jpg" alt="Gruta de Maquiné - Cordisburgo, MG/Brasil">
+          <img src="<?= $settings->basePage ?>/images/banner/espelho.jpg" alt="Praia do Espelho - Trancoso, BA/Brasil">
+          <img src="<?= $settings->basePage ?>/images/banner/talhado.jpg" alt="Cidade de Pedras - Talhado, MG/Brasil">
+          <img src="<?= $settings->basePage ?>/images/banner/cusco.jpg" alt="Plaza de Armas - Cusco, Peru">
+          <img src="<?= $settings->basePage ?>/images/banner/machu.jpg" alt="Machu Picchu - Cusco, Peru">
+          <img src="<?= $settings->basePage ?>/images/banner/colores.jpg" alt="Montaña de Colores - Cusco, Peru">
+          <img src="<?= $settings->basePage ?>/images/banner/ausangate.jpg" alt="Ausangate - Cusco, Peru">
+          <img src="<?= $settings->basePage ?>/images/banner/huaypo.jpg" alt="Laguna Huaypo - Cusco, Peru">
+          <img src="<?= $settings->basePage ?>/images/banner/lima.jpg" alt="Plaza de Armas - Lima, Peru">
+          <img src="<?= $settings->basePage ?>/images/banner/ouro.jpg" alt="Cachoeira do Veado - Serra da Bocaina, SP/Brasil">
+          <img src="<?= $settings->basePage ?>/images/banner/tombador.jpg" alt="Cachoeira do Tombador - Serra da Cipó, MG/Brasil">
+          <img src="<?= $settings->basePage ?>/images/banner/capivara.jpg" alt="Cachoeira da Capivara - Serra da Cipó, MG/Brasil">
         </div>
 <?php
 	}
