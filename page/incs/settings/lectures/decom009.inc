@@ -4,6 +4,7 @@ $lecture = new Settings();
 $lecture->image = 'images/classes/lp.png';
 $lecture->department = 'DECOM';
 $lecture->offers = array(
+	"2026_1" => 2,
 	"2025_2" => 2,
 	"2025_1" => 2,
 	"2024_2" => 2,
@@ -89,10 +90,10 @@ Orientação a objetos;Aula10.pdf;https://youtu.be/PVE5ZV9g3iE;Lista10.pdf
 Tratamento de exceções;Aula11.pdf;https://youtu.be/RhLfggLIrKU;Lista11.pdf
 Parâmetros;Aula12.pdf;;Lista12.pdf
 Programação lógica: Prolog;Aula13.pdf;https://youtu.be/USYQ7A4qR8o;Lista13.pdf
-Programação concorrente;Aula14.pdf;https://youtu.be/vvReFLnLN3E;Lista14.pdf
-Modelos de custo;Aula15.pdf;;Lista15.pdf
-Semântica formal;Aula16.pdf;;Lista16.pdf
+Modelos de custo;Aula14.pdf;;Lista14.pdf
 EOF;
+//Programação concorrente;Aula15.pdf;https://youtu.be/vvReFLnLN3E;Lista15.pdf
+//Semântica formal;Aula16.pdf;;Lista16.pdf
 
 		break;
 	default:
