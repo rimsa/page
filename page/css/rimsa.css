@@ -15,7 +15,7 @@ body > .container {
 
 .navbar-header {
     background-color: #292929;
-    background: url('../images/bg/h_darkchalkboard.jpg') no-repeat;
+    background: url('../images/bg/h_darkchalkboard.jpg') repeat;
     border-bottom: 2px solid #1573dc;
     float: none;
     text-align: center;
@@ -323,7 +323,7 @@ body > .container {
 }
 
 .navbar-offcanvas > .nav > li.active > a::before {
-    left: -2000px;
+    left: -3500px;
     margin-right: 10px;
     right: 50%;
 }
@@ -331,7 +331,7 @@ body > .container {
 .navbar-offcanvas > .nav > li.active > a::after {
     left: 50%;
     margin-left: 9px;
-    right: -2000px;
+    right: -3500px;
 }
 
 .navbar-offcanvas.in > .nav > li.active::before {
@@ -439,7 +439,7 @@ body > .container {
 .underfooter {
     text-align: center;
     min-height: 30px;
-    background: url('../images/bg/h_darkchalkboard.jpg') no-repeat;
+    background: url('../images/bg/h_darkchalkboard.jpg') repeat;
     border-top: 2px solid #353535;
     color: white;
     padding-top: 5px;
