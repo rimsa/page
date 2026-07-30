@@ -4,6 +4,7 @@ $lecture = new Settings();
 $lecture->image = 'images/classes/shell.png';
 $lecture->department = 'DECOM';
 $lecture->offers = array(
+	"2026_2" => 2,
 	"2026_1" => 2,
 	"2025_2" => 2,
 	"2025_1" => 2,
