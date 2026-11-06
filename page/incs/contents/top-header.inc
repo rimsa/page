@@ -6,11 +6,14 @@
           </button>
           <div class="navbar-language">
 <?php
-    $get = $_GET;
+	$get = $_GET;
+	$path = $_SERVER['SCRIPT_NAME'];
 	foreach (Language::values() as $l) {
 		$get['lang'] = $l;
+		$url = $path . '?' . http_build_query($get);
+
 ?>
-            <a href="<?= $_SERVER['PHP_SELF']; ?>?<?= http_build_query($get) ?>">
+            <a href="<?= htmlspecialchars($url, ENT_QUOTES, 'UTF-8') ?>">
               <img src="<?= $settings->basePage . '/images/flags/' . $l . '.svg' ?>" alt="<?= Language::name($l) ?>" <?= ($settings->language === $l ? 'class="selected"' : '') ?>>
             </a>
 <?php

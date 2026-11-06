@@ -187,11 +187,18 @@ if ($('#score-form').length > 0) {
 				var name = xmln.find('name').text();
 				var link = xmln.find('link').text();
 
-				if (link)
-					$("#grading .grading-container .student span").html(
-						"<a href=\"" + link + "\" target=\"_blank\">" + name + "</a>");
-				else
+				if (link) {
+					const $a = $("<a>", {
+						href: link,
+						target: "_blank",
+						rel: "noopener noreferrer",
+						text: name
+					});
+
+					$("#grading .grading-container .student span").empty().append($a);
+				} else {
 					$("#grading .grading-container .student span").text(name);
+				}
 				$("#grading .grading-container .student").show();
 
 				xmln.find('mode grade').each(function (index) {
